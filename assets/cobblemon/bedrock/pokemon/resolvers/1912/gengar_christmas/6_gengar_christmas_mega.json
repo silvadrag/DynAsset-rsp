@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:gengar",
+  "order": 6,
+  "variations": [
+    {
+      "aspects": [
+        "mega",
+        "christmas"
+      ],
+      "model": "cobblemon:gengar_christmas_mega.geo",
+      "texture": "cobblemon:textures/pokemon/gengar_christmas/gengar_christmas_mega.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/gengar_christmas/gengar_christmas_mega_emissives.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "christmas"
+      ],
+      "model": "cobblemon:gengar_christmas_mega.geo",
+      "texture": "cobblemon:textures/pokemon/gengar_christmas/gengar_christmas_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/gengar_christmas/gengar_christmas_mega_emissives.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

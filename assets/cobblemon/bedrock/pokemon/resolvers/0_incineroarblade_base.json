@@ -1,0 +1,38 @@
+{
+  "species": "cobblemon:incineroarblade",
+  "order": 0,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:incineroarblade",
+      "model": "cobblemon:incineroarblade.geo",
+      "texture": "cobblemon:textures/pokemon/incineroarblade/incineroarblade.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/incineroarblade/incineroarblade_emissive.png",
+          "emissive": "true",
+            "translucent": true
+          }  
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/incineroarblade/incineroarblade_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/incineroarblade/incineroarblade_shiny_emissive.png",
+          "emissive": "true",
+          "translucent": true
+        }  
+      ]
+    }
+  ]
+}

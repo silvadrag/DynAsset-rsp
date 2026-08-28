@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:medicham",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": ["skin-anime3", "mega"],
+      "model": "cobblemon:medicham_mega_anime3.geo",
+      "poser": "cobblemon:medicham_mega_anime3",
+      "texture": "cobblemon:textures/pokemon/0000_skins/anime3/medicham_mega_anime3.png"
+    },
+    {
+      "aspects": ["skin-anime3", "shiny", "mega"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/anime3/medicham_mega_anime3_shiny.png"
+    }
+  ]
+}

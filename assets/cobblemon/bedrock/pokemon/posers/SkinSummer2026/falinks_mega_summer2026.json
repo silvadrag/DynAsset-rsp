@@ -1,0 +1,32 @@
+{
+  "animations": { "cry": "q.bedrock_stateful('falinks', 'cry')" },
+  "portraitScale": 1.26,
+  "portraitTranslation": [-0.18, 1.36, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('falinks_mega_summer2026', 'battle_idle')"
+      ],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('falinks_mega_summer2026', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('falinks_mega_summer2026', 'ground_walk')"
+      ],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.53,
+  "profileTranslation": [0, 0.94, 0]
+}

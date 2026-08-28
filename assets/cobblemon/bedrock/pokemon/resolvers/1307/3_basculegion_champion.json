@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:basculegion",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["champion"],
+      "poser": "cobblemon:basculegion",
+      "model": "cobblemon:basculegion_champion.geo",
+      "texture": "cobblemon:textures/pokemon/0902_basculegion/basculegion_champion.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0902_basculegion/basculegion_champion_emissive.png",
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}

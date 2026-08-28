@@ -1,0 +1,23 @@
+{
+  "head": "head",
+  "portraitScale": 0.6,
+  "portraitTranslation": [-0.1, 1.6, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(aggron_wildwest_mega, ground_idle)", "look"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(aggron_wildwest_mega, ground_walk)", "look"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.4,
+  "profileTranslation": [0.05, 1.2, 0]
+}

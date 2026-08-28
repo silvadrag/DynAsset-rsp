@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:calyrex",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-yearofthehorse"],
+      "model": "cobblemon:calyrex_yearofthehorse.geo",
+      "poser": "cobblemon:calyrex_yearofthehorse",
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/calyrex_yearofthehorse.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/calyrex_yearofthehorse_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-yearofthehorse", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/calyrex_yearofthehorse_shiny.png",
+      "layers": []
+    }
+  ]
+}

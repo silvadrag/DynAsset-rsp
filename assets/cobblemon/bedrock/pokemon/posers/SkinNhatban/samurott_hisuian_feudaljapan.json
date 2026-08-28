@@ -1,0 +1,199 @@
+{
+  "animations": { "recoil": "q.bedrock_stateful('samurott_hisuian_feudaljapan','recoil')" },
+  "head": "head_ai",
+  "portraitScale": 1.2,
+  "portraitTranslation": [-0.5, 1.4, 0],
+  "poses": {
+    "battle_standing": {
+      "animations": [
+        "look",
+        "bedrock(samurott_hisuian_feudaljapan,battle_pose)",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "namedAnimations": {
+        "aquajet": "q.bedrock_primary('samurott_hisuian_feudaljapan','horn', q.curve('symmetrical_wide'))",
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','battle_cry')",
+        "faint": "q.bedrock_primary('samurott_hisuian_feudaljapan','faint')",
+        "megahorn": "q.bedrock_primary('samurott_hisuian_feudaljapan','horn', q.curve('symmetrical_wide'))",
+        "physical": "q.bedrock_primary('samurott_hisuian_feudaljapan','physical', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_primary('samurott_hisuian_feudaljapan','special', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_primary('samurott_hisuian_feudaljapan','status', q.curve('symmetrical_wide'))",
+        "waterfall": "q.bedrock_primary('samurott_hisuian_feudaljapan','special', q.curve('symmetrical_wide'))"
+      },
+      "poseName": "battle_standing",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 5, 15, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": false, "part": "sasumata_back" },
+        { "isVisible": true, "part": "sasumata" },
+        { "isVisible": true, "part": "sasumata2" }
+      ]
+    },
+    "battle_surface": {
+      "animations": [
+        "bedrock(samurott_hisuian_feudaljapan,battle_water)",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "namedAnimations": {
+        "aquajet": "q.bedrock_primary('samurott_hisuian_feudaljapan','horn_water', q.curve('symmetrical_wide'))",
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','battle_cry')",
+        "faint": "q.bedrock_primary('samurott_hisuian_feudaljapan','faint_water')",
+        "megahorn": "q.bedrock_primary('samurott_hisuian_feudaljapan','horn_water', q.curve('symmetrical_wide'))",
+        "physical": "q.bedrock_primary('samurott_hisuian_feudaljapan','physical_water', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_primary('samurott_hisuian_feudaljapan','special_water', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_primary('samurott_hisuian_feudaljapan','status_water', q.curve('symmetrical_wide'))",
+        "waterfall": "q.bedrock_primary('samurott_hisuian_feudaljapan','special_water', q.curve('symmetrical_wide'))"
+      },
+      "poseName": "battle_surface",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 5, 15, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [{ "part": "body", "position": [0, -2, 0] }]
+    },
+    "battle_swimming": {
+      "animations": [
+        "bedrock(samurott_hisuian_feudaljapan,battle_water)",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": true,
+      "namedAnimations": {
+        "aquajet": "q.bedrock_primary('samurott_hisuian_feudaljapan','horn_water', q.curve('symmetrical_wide'))",
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','battle_cry')",
+        "faint": "q.bedrock_primary('samurott_hisuian_feudaljapan','faint_water')",
+        "megahorn": "q.bedrock_primary('samurott_hisuian_feudaljapan','horn_water', q.curve('symmetrical_wide'))",
+        "physical": "q.bedrock_primary('samurott_hisuian_feudaljapan','physical_water', q.curve('symmetrical_wide'))",
+        "special": "q.bedrock_primary('samurott_hisuian_feudaljapan','special_water', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_primary('samurott_hisuian_feudaljapan','status_water', q.curve('symmetrical_wide'))",
+        "waterfall": "q.bedrock_primary('samurott_hisuian_feudaljapan','special_water', q.curve('symmetrical_wide'))"
+      },
+      "poseName": "battle_surface",
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 5, 15, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [{ "part": "body", "position": [0, -2, 0] }]
+    },
+    "floating": {
+      "animations": [
+        "look",
+        "bedrock(samurott_hisuian_feudaljapan,water_idle)",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','cry')"
+      },
+      "poseName": "floating",
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 5, 15, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": true, "part": "sasumata_back" },
+        { "isVisible": false, "part": "sasumata" },
+        { "isVisible": false, "part": "sasumata2" }
+      ]
+    },
+    "sleep": {
+      "animations": [
+        "bedrock(samurott_hisuian_feudaljapan,sleep)",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','cry')"
+      },
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": true, "part": "sasumata_back" },
+        { "isVisible": false, "part": "sasumata" },
+        { "isVisible": false, "part": "sasumata2" }
+      ]
+    },
+    "standing": {
+      "animations": [
+        "look",
+        "bedrock(samurott_hisuian_feudaljapan,ground_idle)",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','cry')"
+      },
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 5, 15, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": true, "part": "sasumata_back" },
+        { "isVisible": false, "part": "sasumata" },
+        { "isVisible": false, "part": "sasumata2" }
+      ]
+    },
+    "surface_swim": {
+      "animations": [
+        "bedrock(samurott_hisuian_feudaljapan,water_swim)",
+        "q.look('head_ai')",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": false,
+      "isTouchingWater": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','cry')"
+      },
+      "poseName": "surface_swim",
+      "poseTypes": ["WALk"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 3, 8, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [{ "part": "body", "position": [0, -2, 0] }]
+    },
+    "swimming": {
+      "animations": [
+        "bedrock(samurott_hisuian_feudaljapan,water_swim)",
+        "q.look('body')",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','cry')"
+      },
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 3, 8, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": true, "part": "sasumata_back" },
+        { "isVisible": false, "part": "sasumata" },
+        { "isVisible": false, "part": "sasumata2" }
+      ]
+    },
+    "walking": {
+      "animations": [
+        "look",
+        "bedrock(samurott_hisuian_feudaljapan,ground_walk)",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('samurott_hisuian_feudaljapan','cry')"
+      },
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian_feudaljapan','blink', 5, 10, 1)"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": true, "part": "sasumata_back" },
+        { "isVisible": false, "part": "sasumata" },
+        { "isVisible": false, "part": "sasumata2" }
+      ]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0],
+  "rootBone": "samurott_hisui"
+}

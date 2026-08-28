@@ -1,0 +1,56 @@
+{
+  "order": 100,
+  "species": "cobblemon:blastoise",
+  "variations": [
+    {
+      "aspects": ["skin-feudaljapan", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/blastoise_mega_feudaljapan_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:blastoise_mega_feudaljapan.geo",
+      "poser": "cobblemon:blastoise_mega_feudaljapan",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/blastoise_mega_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/blastoise_mega_feudaljapan_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/blastoise_mega_feudaljapan_shiny.png"
+    },
+    {
+      "aspects": ["skin-feudaljapan", "skin-statue"],
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blank.png"
+        }
+      ],
+      "model": "cobblemon:blastoise_mega_feudaljapan_statue.geo",
+      "poser": "cobblemon:substitute",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/blastoise_mega_feudaljapan_statue.png"
+    },
+    {
+      "aspects": ["skin-feudaljapan", "skin-statue", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/blastoise_mega_feudaljapan_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/blastoise_mega_feudaljapan_statue_shiny.png"
+    }
+  ]
+}

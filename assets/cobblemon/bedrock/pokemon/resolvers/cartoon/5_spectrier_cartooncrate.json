@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:spectrier",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["skin-cartooncrate"],
+      "poser": "cobblemon:spectrier_cartooncrate",
+      "model": "cobblemon:spectrier_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/spectrier1/spectrier1.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","skin-cartooncrate"],
+      "texture": "cobblemon:textures/pokemon/spectrier1/spectrier1_shiny.png",
+      "layers": []
+    }
+  ]
+}

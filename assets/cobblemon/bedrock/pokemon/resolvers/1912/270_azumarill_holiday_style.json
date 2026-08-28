@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:azumarill",
+  "order": 270,
+  "variations": [
+    {
+      "aspects": ["holiday_style"],
+      "poser": "cobblemon:azumarill",
+      "model": "cobblemon:azumarill_holiday_style.geo",
+      "texture": "cobblemon:textures/pokemon/0184_azumarill/azumarill_holiday_style.png",
+      "layers": []
+    },
+    {
+      "aspects": ["holiday_style", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0184_azumarill/azumarill_holiday_style_shiny.png"
+    }
+  ]
+}

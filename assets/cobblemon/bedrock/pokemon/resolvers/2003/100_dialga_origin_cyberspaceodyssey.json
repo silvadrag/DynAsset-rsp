@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:dialga",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": ["skin-cyberspaceodyssey", "origin-forme"],
+      "model": "cobblemon:dialga_origin_cyberspaceodyssey.geo",
+      "poser": "cobblemon:dialga_origin_cyberspaceodyssey_upgrade",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/dialga_origin_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/dialga_origin_cyberspaceodyssey_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "skin-cyberspaceodyssey", "origin-forme"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/dialga_origin_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/dialga_origin_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

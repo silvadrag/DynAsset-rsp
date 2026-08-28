@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:snorlax",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-anime3"],
+      "model": "cobblemon:snorlax_anime3.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/anime3/snorlax_anime3.png"
+    },
+    {
+      "aspects": ["skin-anime3", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/anime3/snorlax_anime3_shiny.png"
+    }
+  ]
+}

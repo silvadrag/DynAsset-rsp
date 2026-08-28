@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:armarougearcane",
+  "order": 0,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:armarougearcane",
+      "model": "cobblemon:armarougearcane.geo",
+      "texture": "cobblemon:textures/pokemon/armarougearcane/armarougearcane.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/armarougearcane/armarougearcane_emissive.png",
+          "emissive": "true",
+            "translucent": true
+          }  
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "model": "cobblemon:armarougearcane.geo",
+      "poser": "cobblemon:armarougearcane",
+      "texture": "cobblemon:textures/pokemon/armarougearcane/armarougearcane_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/armarougearcane/armarougearcane_shiny_emissive.png",
+          "emissive": "true",
+          "translucent": true
+        }  
+      ]
+    }
+  ]
+}

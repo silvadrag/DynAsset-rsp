@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:roaringmoon",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-nnhalloween"],
+      "model": "cobblemon:roaringmoon_nnhalloween.geo",
+      "poser": "cobblemon:roaringmoon_nnhalloween",
+      "texture": "cobblemon:textures/pokemon/0000_skins/nnhalloween/roaringmoon_nnhalloween.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/nnhalloween/roaringmoon_nnhalloween_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-nnhalloween", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/nnhalloween/roaringmoon_nnhalloween_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/nnhalloween/roaringmoon_nnhalloween_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

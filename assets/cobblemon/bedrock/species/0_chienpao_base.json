@@ -1,0 +1,46 @@
+{
+    "species": "cobblemon:chienpao",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:chienpao",
+        "model": "cobblemon:chienpao.geo",
+        "texture": "cobblemon:textures/pokemon/1002_chienpao/chienpao.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "cobblemon:textures/pokemon/1002_chienpao/chienpao_emissive.png",
+            "emissive": true
+            
+          },
+          {
+            "name": "outer",
+            "texture": "cobblemon:textures/pokemon/1002_chienpao/chienpao_out.png",
+            "translucent": true
+            
+          }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/1002_chienpao/chienpao_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "cobblemon:textures/pokemon/1002_chienpao/chienpao_emissive_shiny.png",
+            "emissive": true
+            
+          },
+          {
+            "name": "outer",
+            "texture": "cobblemon:textures/pokemon/1002_chienpao/chienpao_out_shiny.png",
+            "translucent": true
+            
+          }
+        ]
+      }
+    ]
+  }

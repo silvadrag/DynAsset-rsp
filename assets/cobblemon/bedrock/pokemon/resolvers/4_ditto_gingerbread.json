@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ditto",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["gingerbread"],
+      "model": "cobblemon:gingerbread_ditto.geo",
+      "texture": "cobblemon:textures/pokemon/0132_ditto/gingerbread_ditto.png",
+      "layers": []
+    },
+    {
+      "aspects": ["gingerbread", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0132_ditto/gingerbread_ditto_shiny.png",
+      "layers": []
+    }
+  ]
+}

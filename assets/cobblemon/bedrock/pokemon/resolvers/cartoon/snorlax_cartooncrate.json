@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:snorlax",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": [
+        "skin-cartooncrate"
+      ],
+      "poser": "cobblemon:snorlax_cartooncrate",
+      "model": "cobblemon:snorlax_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/snorlax2/snorlax2.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/snorlax2/snorlax2_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin-cartooncrate"
+      ],
+      "texture": "cobblemon:textures/pokemon/snorlax2/snorlax2_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/snorlax2/snorlax2_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

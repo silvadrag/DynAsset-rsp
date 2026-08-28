@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:empoleon",
+  "order": 270,
+  "variations": [
+    {
+      "aspects": ["regal_style"],
+      "poser": "cobblemon:empoleon",
+      "model": "cobblemon:empoleon_regal_style.geo",
+      "texture": "cobblemon:textures/pokemon/0395_empoleon/empoleon_regal_style.png",
+      "layers": []
+    },
+    {
+      "aspects": ["regal_style", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0395_empoleon/empoleon_regal_style_shiny.png"
+    }
+  ]
+}

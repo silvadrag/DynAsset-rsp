@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:giratina",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-cyberspaceodyssey"],
+      "model": "cobblemon:giratina_cyberspaceodyssey.geo",
+      "poser": "cobblemon:giratina_cyberspaceodyssey_upgrade",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/giratina_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/giratina_cyberspaceodyssey_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "skin-cyberspaceodyssey"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/giratina_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/giratina_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:rayquaza",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-animeallstars"],
+      "model": "cobblemon:rayquaza_animeallstars.geo",
+      "poser": "cobblemon:rayquaza_animeallstars",
+      "texture": "cobblemon:textures/pokemon/0000_skins/animeallstars/rayquaza_animeallstars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/animeallstars/rayquaza_animeallstars_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-animeallstars", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/animeallstars/rayquaza_animeallstars_shiny.png",
+      "layers": []
+    }
+  ]
+}

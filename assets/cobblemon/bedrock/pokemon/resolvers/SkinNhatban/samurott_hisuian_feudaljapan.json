@@ -1,0 +1,32 @@
+{
+  "order": 99,
+  "species": "cobblemon:samurott",
+  "variations": [
+    {
+      "aspects": ["skin-feudaljapan", "hisuian"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/samurott_hisuian_feudaljapan_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:samurott_hisuian_feudaljapan.geo",
+      "poser": "cobblemon:samurott_hisuian_feudaljapan",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/samurott_hisuian_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan", "hisuian"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/samurott_hisuian_feudaljapan_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/samurott_hisuian_feudaljapan_shiny.png"
+    }
+  ]
+}

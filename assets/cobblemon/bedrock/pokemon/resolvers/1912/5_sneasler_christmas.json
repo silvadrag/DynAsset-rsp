@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:sneasler",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["christmas"],
+      "texture": "cobblemon:textures/pokemon/sneasler_christmas.png",
+      "model": "cobblemon:sneasler_christmas.geo"
+    },
+    {
+      "aspects": ["christmas", "shiny"],
+      "texture": "cobblemon:textures/pokemon/sneasler_christmas_shiny.png"
+    }
+  ]
+}

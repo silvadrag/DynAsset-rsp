@@ -1,0 +1,81 @@
+{
+    "head": "head",
+    "portraitScale": 1.5,
+    "portraitTranslation": [
+        -0.3,
+        1,
+        0
+    ],
+    "profileScale": 1.5,
+    "profileTranslation": [
+        0,
+        1.2,
+        0
+    ],
+    "animations": {
+        "special": "q.bedrock_stateful('fluttermane_thang9', 'special', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(fluttermane_thang9, ground_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(fluttermane_thang9, blink)"
+                    ]
+                },
+                {
+                    "name": "laugh",
+                    "animations": [
+                        "bedrock(fluttermane_thang9, laugh)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(fluttermane_thang9, ground_walk)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(fluttermane_thang9, blink)"
+                    ]
+                },
+                {
+                    "name": "laugh",
+                    "animations": [
+                        "bedrock(fluttermane_thang9, laugh)"
+                    ]
+                }
+            ]
+        },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SLEEP"
+     ],
+     "animations": [
+       "bedrock(fluttermane_thang9, sleep)"
+     ]
+   }
+    }
+}

@@ -1,0 +1,101 @@
+{
+  "portraitScale": 1.25,
+  "portraitTranslation": [0, 2.83, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('mewtwo_feudaljapan', 'battle_idle')"
+      ],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('mewtwo_feudaljapan', 'blink')"],
+      "transformedParts": [
+        { "isVisible": true, "part": "hand_sword" },
+        { "isVisible": false, "part": "sword_sheathed" }
+      ]
+    },
+    "flying": {
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('mewtwo_feudaljapan', 'air_fly')"
+      ],
+      "poseTypes": ["FLY", "SWIM"],
+      "quirks": ["q.bedrock_quirk('mewtwo_feudaljapan', 'blink')"],
+      "transformedParts": [
+        { "isVisible": false, "part": "hand_sword" },
+        { "isVisible": true, "part": "sword_sheathed" }
+      ]
+    },
+    "hover": {
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('mewtwo_feudaljapan', 'air_idle')"
+      ],
+      "poseTypes": ["HOVER", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('mewtwo_feudaljapan', 'blink')"],
+      "transformedParts": [
+        { "isVisible": false, "part": "hand_sword" },
+        { "isVisible": true, "part": "sword_sheathed" }
+      ]
+    },
+    "shoulderleft": {
+      "animations": ["bedrock(mewtwo_feudaljapan, shoulder_left)"],
+      "poseName": "shoulderleft",
+      "poseTypes": ["SHOULDER_LEFT"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": false, "part": "hand_sword" },
+        { "isVisible": true, "part": "sword_sheathed" }
+      ]
+    },
+    "shoulderright": {
+      "animations": ["bedrock(mewtwo_feudaljapan, shoulder_right)"],
+      "poseName": "shoulderright",
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "transformTicks": 10,
+      "transformedParts": [
+        { "isVisible": false, "part": "hand_sword" },
+        { "isVisible": true, "part": "sword_sheathed" }
+      ]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('mewtwo_feudaljapan', 'sleep')"],
+      "poseTypes": ["SLEEP"],
+      "transformedParts": [
+        { "isVisible": false, "part": "hand_sword" },
+        { "isVisible": true, "part": "sword_sheathed" }
+      ]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('mewtwo_feudaljapan', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('mewtwo_feudaljapan', 'blink')"],
+      "transformedParts": [
+        { "isVisible": false, "part": "hand_sword" },
+        { "isVisible": true, "part": "sword_sheathed" }
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('mewtwo_feudaljapan', 'ground_walk')"
+      ],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('mewtwo_feudaljapan', 'blink')"],
+      "transformedParts": [
+        { "isVisible": false, "part": "hand_sword" },
+        { "isVisible": true, "part": "sword_sheathed" }
+      ]
+    }
+  },
+  "profileScale": 0.43,
+  "profileTranslation": [0.06, 1.12, 0],
+  "rootBone": "mewtwo_feudaljapan"
+}

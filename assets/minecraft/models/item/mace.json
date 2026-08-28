@@ -1,0 +1,1 @@
+{"parent":"item/handheld","textures":{"layer0":"item/mace"},"overrides":[{"model":"ci:item/tools/mudsdale_ambitionofredhare_weapon","predicate":{"custom_model_data":100001}},{"model":"ci:item/tools/mudsdale_ambitionofredhareshiny_weapon","predicate":{"custom_model_data":100002}}]}

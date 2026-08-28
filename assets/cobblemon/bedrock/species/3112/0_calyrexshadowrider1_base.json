@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:calyrexshadowrider1",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:calyrex_shadowmax",
+      "model": "cobblemon:calyrex_shadowmax.geo",
+      "texture": "cobblemon:textures/pokemon/calyrex_shadowmax/calyrex_shadowmax.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/calyrex_shadowmax/calyrex_shadowmax_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:ceruledgeaxe",
+  "order": 0,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ceruledgeaxe",
+      "model": "cobblemon:ceruledgeaxe.geo",
+      "texture": "cobblemon:textures/pokemon/ceruledgeaxe/ceruledgeaxe.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ceruledgeaxe/ceruledgeaxe_emissive.png",
+          "emissive": "true",
+            "translucent": true
+          }  
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "model": "cobblemon:ceruledgeaxe.geo",
+      "poser": "cobblemon:ceruledgeaxe",
+      "texture": "cobblemon:textures/pokemon/ceruledgeaxe/ceruledgeaxe_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ceruledgeaxe/ceruledgeaxe_shiny_emissive.png",
+          "emissive": "true",
+          "translucent": true
+        }  
+      ]
+    }
+  ]
+}

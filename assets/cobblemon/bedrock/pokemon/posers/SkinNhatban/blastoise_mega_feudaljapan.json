@@ -1,0 +1,36 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('blastoise_mega_feudaljapan', 'cry')",
+    "physical": "q.bedrock_primary('blastoise_mega_feudaljapan_feudaljapan', 'attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('blastoise_mega_feudaljapan_feudaljapan', 'attack', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1.3,
+  "portraitTranslation": [-1.01, 1.4, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(blastoise_mega_feudaljapan, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        { "animations": ["bedrock(blastoise_mega_feudaljapan, blink)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": [
+        "bedrock(blastoise_mega_feudaljapan, ground_walk)",
+        "bedrock(blastoise_mega_feudaljapan, ground_idle)"
+      ],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        { "animations": ["bedrock(blastoise_mega_feudaljapan, blink)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.45,
+  "profileTranslation": [0, 1.0, 0],
+  "rootBone": "blastoise_mega_feudaljapan"
+}

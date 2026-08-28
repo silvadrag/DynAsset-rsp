@@ -1,0 +1,34 @@
+{
+  "order": 100,
+  "species": "cobblemon:salamence",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest", "mega"],
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "fps": 12,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_wildwest_4.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_wildwest_5.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_wildwest_6.png"
+            ],
+            "loop": true
+          }
+        }
+      ],
+      "poser": "cobblemon:salamence_wildwest_mega",
+      "model": "cobblemon:salamence_mega_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_mega_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny", "mega"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/salamence_mega_wildwest_shiny.png"
+    }
+  ]
+}

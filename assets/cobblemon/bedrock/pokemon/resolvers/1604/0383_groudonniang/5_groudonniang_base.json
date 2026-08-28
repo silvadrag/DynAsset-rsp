@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:groudon",
+	"order": 5,
+	"variations": [
+		{
+			"aspects": ["niang"],
+			"poser": "cobblemon:groudonniang",
+			"model": "cobblemon:groudonniang.geo",
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0383_groudonniang/groudonniang.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0383_groudonniang/groudonniang_emissive.png",
+					"translucent": true
+			  }	
+			]
+		},
+		{
+			"aspects": [ "shiny", "niang"],
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0383_groudonniang/groudonniang_shiny.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0383_groudonniang/groudonniang_emissive_shiny.png",
+					"translucent": true
+			  }	
+			]
+		}
+	]
+}

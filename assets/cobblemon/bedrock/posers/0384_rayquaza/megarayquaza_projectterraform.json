@@ -1,0 +1,123 @@
+{
+  "head": "head",
+  "portraitScale": 0.6,
+  "portraitTranslation": [
+    -2.7,
+    3.8,
+    0
+  ],
+  "profileScale": 0.2,
+  "profileTranslation": [
+    -0.3,
+    1.9,
+    0
+  ],
+  "animations": {
+    "faint": "q.bedrock_primary('megarayquaza_projectterraform', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_primary('megarayquaza_projectterraform', 'cry', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('megarayquaza_projectterraform', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('megarayquaza_projectterraform', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('megarayquaza_projectterraform', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "look",
+        "q.bedrock('megarayquaza_projectterraform', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('megarayquaza_projectterraform', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "look",
+        "q.bedrock('megarayquaza_projectterraform', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('megarayquaza_projectterraform', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "look",
+        "q.bedrock('megarayquaza_projectterraform', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('megarayquaza_projectterraform', 'blink')"
+      ]
+    },
+    "float": {
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "animations": [
+        "look",
+        "q.bedrock('megarayquaza_projectterraform', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('megarayquaza_projectterraform', 'blink')"
+      ]
+    },
+    "swim": {
+      "poseTypes": [
+        "SWIM"
+      ],
+      "animations": [
+        "look",
+        "q.bedrock('megarayquaza_projectterraform', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('megarayquaza_projectterraform', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": [
+        "HOVER"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('megarayquaza_projectterraform', 'blink')"
+      ],
+      "animations": [
+        "look",
+        "q.bedrock('megarayquaza_projectterraform', 'ground_idle')"
+      ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": [
+        "FLY"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('megarayquaza_projectterraform', 'blink')"
+      ],
+      "animations": [
+        "look",
+        "q.bedrock('megarayquaza_projectterraform', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('megarayquaza_projectterraform', 'sleep')"
+      ]
+    }
+  }
+}

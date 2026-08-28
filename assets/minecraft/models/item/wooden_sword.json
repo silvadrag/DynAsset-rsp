@@ -1,0 +1,1 @@
+{"parent":"item/handheld","textures":{"layer0":"item/wooden_sword"},"overrides":[{"model":"ci:item/tools/giratina_void_weapon","predicate":{"custom_model_data":100001}}]}

@@ -1,0 +1,126 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": ["heat-appliance", "skin-cyberspaceodyssey"],
+      "poser": "cobblemon:rotom2_heat_cyberspaceodyssey",
+      "model": "cobblemon:rotom_heat_cyberspaceodyssey.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_heat_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_heat_cyberspaceodyssey_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["fan-appliance", "skin-cyberspaceodyssey"],
+      "poser": "cobblemon:rotom2_fan_cyberspaceodyssey",
+      "model": "cobblemon:rotom_fan_cyberspaceodyssey.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_fan_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_fan_cyberspaceodyssey_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["frost-appliance", "skin-cyberspaceodyssey"],
+      "poser": "cobblemon:rotom2_frost_cyberspaceodyssey",
+      "model": "cobblemon:rotom_frost_cyberspaceodyssey.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_frost_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_frost_cyberspaceodyssey_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["wash-appliance", "skin-cyberspaceodyssey"],
+      "poser": "cobblemon:rotom2_wash_cyberspaceodyssey",
+      "model": "cobblemon:rotom_wash_cyberspaceodyssey.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_wash_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_wash_cyberspaceodyssey_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["mow-appliance", "skin-cyberspaceodyssey"],
+      "poser": "cobblemon:rotom2_mow_cyberspaceodyssey",
+      "model": "cobblemon:rotom_mow_cyberspaceodyssey.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_mow_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_mow_cyberspaceodyssey_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["heat-appliance", "shiny", "skin-cyberspaceodyssey"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_heat_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_heat_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["fan-appliance", "shiny", "skin-cyberspaceodyssey"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_fan_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_fan_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["frost-appliance", "shiny", "skin-cyberspaceodyssey"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_frost_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_frost_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["wash-appliance", "shiny", "skin-cyberspaceodyssey"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_wash_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_wash_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["mow-appliance", "shiny", "skin-cyberspaceodyssey"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_mow_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/rotom/rotom_mow_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

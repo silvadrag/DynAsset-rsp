@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:kingambit",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "skin_natal2025"
+      ],
+      "poser": "cobblemon:kingambit",
+      "model": "cobblemon:kingambitnatal2025.geo",
+      "texture": "cobblemon:textures/pokemon/kingambitnatal2025/kingambit_natal2025.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin_natal2025"
+      ],
+      "poser": "cobblemon:kingambit",
+      "model": "cobblemon:kingambitnatal2025.geo",
+      "texture": "cobblemon:textures/pokemon/kingambitnatal2025/kingambit_shiny_natal2025.png",
+      "layers": []
+    }
+  ]
+}

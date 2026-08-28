@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:ditto",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+        "mythology"
+      ],
+      "poser": "cobblemon:ditto_mythology",
+      "model": "cobblemon:ditto_mythology.geo",
+      "texture": "cobblemon:textures/pokemon/0132_ditto/ditto_mythology.png",
+      "layers": []
+    }
+  ]
+}

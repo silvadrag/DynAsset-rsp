@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:trevenant",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["christmas"],
+      "poser": "cobblemon:trevenant",
+      "model": "cobblemon:trevenant_christmas.geo",
+      "texture": "cobblemon:textures/pokemon/0709_trevenant/trevenant_christmas.png"
+    },
+    {
+      "aspects": ["shiny","christmas"],
+      "texture": "cobblemon:textures/pokemon/0709_trevenant/trevenant_christmas_shiny.png"
+
+    }
+  ]
+}

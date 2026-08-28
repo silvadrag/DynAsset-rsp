@@ -1,0 +1,23 @@
+{
+  "head": "head",
+  "portraitScale": 1,
+  "portraitTranslation": [0, 1, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(swalot_wildwest, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(swalot_wildwest, ground_idle)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.9, 0]
+}

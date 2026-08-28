@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:zarude",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["christmas"],
+      "texture": "cobblemon:textures/pokemon/zarude_christmas.png",
+      "model": "cobblemon:zarude_christmas.geo"
+    },
+    {
+      "aspects": ["christmas", "shiny"],
+      "texture": "cobblemon:textures/pokemon/zarude_christmas_shiny.png"
+    }
+  ]
+}

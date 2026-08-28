@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:ironbundle",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": [
+        "skin-cartooncrate"
+      ],
+      "poser": "cobblemon:ironbundle_cartooncrate",
+      "model": "cobblemon:ironbundle_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/ironbundle1/ironbundle1.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/ironbundle1/ironbundle1_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin-cartooncrate"
+      ],
+      "texture": "cobblemon:textures/pokemon/ironbundle1/ironbundle1_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/ironbundle1/ironbundle1_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

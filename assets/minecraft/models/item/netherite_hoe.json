@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_hoe"},"overrides":[{"model":"ci:item/tools/summer2025_hoe","predicate":{"custom_model_data":100001}}]}

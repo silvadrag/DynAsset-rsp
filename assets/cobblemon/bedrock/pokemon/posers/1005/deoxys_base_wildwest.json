@@ -1,0 +1,26 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [0, 3.8, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(deoxys_base_wildwest, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER"],
+      "quirks": [],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": [
+        "bedrock(deoxys_base_wildwest, ground_walk)",
+        "bedrock(deoxys_base_wildwest, ground_idle)"
+      ],
+      "poseName": "walking",
+      "poseTypes": ["WALK", "FLY"],
+      "quirks": [],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.2, 0],
+  "rootBone": "deoxys"
+}

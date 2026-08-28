@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:meowstic",
+  "order": 9,
+  "variations": [
+    {
+      "aspects": ["mega","gojo"],
+      "poser": "cobblemon:meowstic_mega_gojo",
+      "model": "cobblemon:meowstic_gojo_mega.geo",
+      "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo_mega.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo_mega_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["mega","male", "shiny"],
+      "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo_mega_emissive.png"
+        }
+      ]
+    }
+  ]
+}

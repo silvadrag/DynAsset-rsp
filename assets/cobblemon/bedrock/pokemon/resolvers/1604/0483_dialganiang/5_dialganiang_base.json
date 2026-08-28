@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:dialga",
+	"order": 5,
+	"variations": [
+		{
+			"aspects": ["niang"],
+			"poser": "cobblemon:dialganiang",
+			"model": "cobblemon:dialganiang.geo",
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0483_dialganiang/dialganiang.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0483_dialganiang/dialganiang_emissive.png",
+					"translucent": true
+			  }	
+			]
+		},
+		{
+			"aspects": ["niang", "shiny" ],
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0483_dialganiang/dialganiang_shiny.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0483_dialganiang/dialganiang_emissive_shiny.png",
+					"translucent": true
+			  }	
+			]
+		}
+	]
+}

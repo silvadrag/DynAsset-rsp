@@ -1,0 +1,45 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [0.0, 2, 0.0],
+  "profileScale": 0.53,
+  "profileTranslation": [0.0, 1, 0.0],
+  "rootBone": "armarougearcane",
+  "animations": {
+      "faint": "q.bedrock_primary('armarougearcane', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('armarougearcane', 'cry')",
+	"special": "q.bedrock_primary('armarougearcane', 'special', q.curve('symmetrical_wide'))",
+	"status": "q.bedrock_primary('armarougearcane', 'status', q.curve('symmetrical_wide'))",
+	"physical": "q.bedrock_primary('armarougearcane', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('armarougearcane', 'battle_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('armarougearcane', 'blink')"
+		]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('armarougearcane', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('armarougearcane', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('armarougearcane', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('armarougearcane', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('armarougearcane', 'sleep')"]
+    }
+  }
+}

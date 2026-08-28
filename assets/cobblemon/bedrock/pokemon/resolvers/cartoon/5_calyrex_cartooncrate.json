@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:calyrex",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["skin-cartooncrate"],
+      "poser": "cobblemon:calyrex_cartooncrate",
+      "model": "cobblemon:calyrex_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/calyrex1/calyrex1.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","skin-cartooncrate"],
+      "texture": "cobblemon:textures/pokemon/calyrex1/calyrex1_shiny.png"
+    }
+  ]
+}

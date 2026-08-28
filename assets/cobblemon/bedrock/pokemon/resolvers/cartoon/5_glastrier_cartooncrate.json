@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:glastrier",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["skin-cartooncrate"],
+      "poser": "cobblemon:glastrier_cartooncrate",
+      "model": "cobblemon:glastrier_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/glastrier1/glastrier1.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","skin-cartooncrate"],
+      "texture": "cobblemon:textures/pokemon/glastrier1/glastrier1_shiny.png",
+      "layers": []
+    }
+  ]
+}

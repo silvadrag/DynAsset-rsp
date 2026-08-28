@@ -1,0 +1,1 @@
+{"animations":{"animation.bellibolt_feudaljapan.overlay":{"animation_length":14.7083,"bones":{"effect":{"rotation":["math.random(0,4)","-math.sin(q.anim_time*90*2)*2",0]},"effect2":{"rotation":["math.random(0,4)","-math.sin(q.anim_time*90*2)*2",0]}}}},"format_version":"1.8.0"}

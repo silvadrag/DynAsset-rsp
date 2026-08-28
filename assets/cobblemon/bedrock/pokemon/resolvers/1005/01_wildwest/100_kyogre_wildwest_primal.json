@@ -1,0 +1,94 @@
+{
+  "order": 100,
+  "species": "cobblemon:kyogre",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest", "primal"],
+      "layers": [
+        {
+          "name": "kyogreprimal_line",
+          "emissive": false,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/0382_kyogre/kyogreprimal_line.png"
+        },
+        {
+          "emissive": false,
+          "name": "flame",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_primal_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:kyogre_primal_wildwest.geo",
+      "poser": "cobblemon:kyogre_wildwest",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_primal_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny", "primal"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "flame2",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_wildwest_shiny_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_primal_wildwest_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/kyogre_primal_wildwest_shiny.png"
+    }
+  ]
+}

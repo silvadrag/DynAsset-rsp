@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:zamazenta",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["oni"],
+      "poser": "cobblemon:zamazenta",
+      "model": "cobblemon:zamazenta_oni.geo",
+      "texture": "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_oni.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": [
+          "oni",
+          "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_oni_shiny.png"
+    }
+  ]
+}

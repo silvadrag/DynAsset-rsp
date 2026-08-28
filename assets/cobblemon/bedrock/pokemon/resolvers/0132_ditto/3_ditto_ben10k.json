@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ditto",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["ben10k"],
+      "poser": "cobblemon:ditto",
+      "model": "cobblemon:ditto_ben10k.geo",
+      "texture": "cobblemon:textures/pokemon/0132_ditto/ditto_ben10k.png",
+      "layers": [
+        {
+					"name": "emissive",
+          "emissive": true,
+					"texture": "cobblemon:textures/pokemon/0132_ditto/ditto_ben10k_emissive.png"
+				}
+      ]
+    }
+  ]
+}

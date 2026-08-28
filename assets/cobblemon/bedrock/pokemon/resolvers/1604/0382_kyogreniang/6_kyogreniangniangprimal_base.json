@@ -1,0 +1,44 @@
+{
+	"species": "cobblemon:kyogre",
+	"order": 6,
+	"variations": [
+		{
+			"aspects": ["niang", "primal"],
+			"poser": "cobblemon:kyogreniangprimal",
+			"model": "cobblemon:kyogreniangprimal.geo",
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniangprimal.png",
+			"layers": [
+        {
+          "name": "kyogreprimal_line",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniangprimal_emissive.png"
+        },
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniangprimal_emissive.png",
+					"translucent": true
+			  }	
+			]
+		},
+		{
+			"aspects": ["niang", "primal", "shiny" ],
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniangprimal_shiny.png",
+			"layers": [
+        {
+          "name": "kyogreprimal_line",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniangprimal_emissive_shiny.png"
+        },
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniangprimal_emissive_shiny.png",
+					"translucent": true
+			  }	
+			]
+		}
+	]
+}

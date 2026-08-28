@@ -1,0 +1,59 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('swampert_wildwest_mega', 'cry')",
+    "faint": "q.bedrock_primary('swampert_wildwest_mega', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('swampert_wildwest_mega', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('swampert_wildwest_mega', 'recoil')",
+    "special": "q.bedrock_primary('swampert_wildwest_mega', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('swampert_wildwest_mega', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1,
+  "portraitTranslation": [-0.7, 2.1, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('swampert_wildwest_mega', 'battle_idle')"
+      ],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('swampert_wildwest_mega', 'blink')"]
+    },
+    "float": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('swampert_wildwest_mega', 'water_idle')"
+      ],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('swampert_wildwest_mega', 'blink')"]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('swampert_wildwest_mega', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('swampert_wildwest_mega', 'blink')"]
+    },
+    "swim": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('swampert_wildwest_mega', 'water_swim')"
+      ],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('swampert_wildwest_mega', 'blink')"]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('swampert_wildwest_mega', 'ground_walk')"
+      ],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('swampert_wildwest_mega', 'blink')"]
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [-0.1, 1.0, 0],
+  "rootBone": "swampert_mega"
+}

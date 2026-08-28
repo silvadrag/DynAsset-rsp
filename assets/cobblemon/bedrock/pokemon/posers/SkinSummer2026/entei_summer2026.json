@@ -1,0 +1,34 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('entei_summer2026', 'cry')",
+    "faint": "q.bedrock('entei_summer2026', 'faint')",
+    "recoil": "q.bedrock_stateful('entei_summer2026', 'recoil')"
+  },
+  "portraitScale": 1.75,
+  "portraitTranslation": [-1.25, 2, 0.0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('entei_summer2026', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('entei_summer2026', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('entei_summer2026', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('entei_summer2026', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('entei_summer2026', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('entei_summer2026', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('entei_summer2026', 'blink')"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.9, 0.0]
+}

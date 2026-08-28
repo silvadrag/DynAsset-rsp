@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:mimikyu",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["skin_natal2025"],
+      "poser": "cobblemon:mimikyu",
+      "model": "cobblemon:mimikyu2024natal.geo",
+      "texture": "cobblemon:textures/pokemon/mimikyu2024natal/mimikyu_natal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "skin_natal2025"
+      ],
+      "texture": "cobblemon:textures/pokemon/mimikyu2024natal/mimikyu_natal_shiny.png",
+	        "layers": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "head": "head",
+  "portraitScale": 2.1,
+  "portraitTranslation": [0, -0.7, 0],
+  "profileScale": 0.9,
+  "profileTranslation": [0, 1.0, 0],
+  "animations": { "cry": "q.bedrock_stateful('rotom2_fan_cyberspaceodyssey', 'cry')" },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": ["q.bedrock('rotom2_fan_cyberspaceodyssey', 'battle_idle')"],
+      "quirks": [
+        { "name": "quirk", "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, cry)"] },
+        { "name": "blink", "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, blink)"] }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, ground_idle)"],
+      "quirks": [
+        { "name": "quirk", "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, cry)"] },
+        { "name": "blink", "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, blink)"] }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, ground_walk)"]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": ["HOVER"],
+      "animations": ["look", "bedrock(rotom2_fan_cyberspaceodyssey, ground_idle)"],
+      "quirks": [
+        { "name": "quirk", "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, cry)"] },
+        { "name": "blink", "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, blink)"] }
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": ["FLY"],
+      "animations": ["look", "bedrock(rotom2_fan_cyberspaceodyssey, ground_walk)"],
+      "quirks": [
+        { "name": "blink", "animations": ["bedrock(rotom2_fan_cyberspaceodyssey, blink)"] }
+      ]
+    }
+  }
+}

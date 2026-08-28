@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:diancie",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-yearofthesnake"],
+      "model": "cobblemon:diancie_yearofthesnake.geo",
+      "poser": "cobblemon:diancie_yearofthesnake",
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/diancie_yearofthesnake.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/diancie_yearofthesnake_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-yearofthesnake", "shiny"],
+      "model": "cobblemon:diancie_yearofthesnake.geo",
+      "poser": "cobblemon:diancie_yearofthesnake",
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/diancie_yearofthesnake_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/diancie_yearofthesnake_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

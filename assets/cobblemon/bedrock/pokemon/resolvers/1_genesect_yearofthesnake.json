@@ -1,0 +1,106 @@
+{
+  "species": "cobblemon:genesect",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["skin-yearofthesnake"],
+      "poser": "cobblemon:genesect_yearofthesnake",
+      "model": "cobblemon:genesect_yearofthesnake.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_emissive.png"
+        },
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "skin-yearofthesnake"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["fire-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_burn_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "fire-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_burn_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["ice-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_chill_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "ice-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_chill_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["water-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_douse_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "water-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_douse_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["electric-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_shock_drive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "electric-drive", "skin-yearofthesnake"],
+      "layers": [
+        {
+          "name": "drive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/genesect_yearofthesnake_shock_drive.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:gholdengo",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["christmas"],
+      "texture": "cobblemon:textures/pokemon/gholdengo_christmas.png",
+      "model": "cobblemon:gholdengo_christmas.geo"
+    },
+    {
+      "aspects": ["christmas","shiny"],
+      "texture": "cobblemon:textures/pokemon/gholdengo_christmas_shiny.png"
+    }
+  ]
+}

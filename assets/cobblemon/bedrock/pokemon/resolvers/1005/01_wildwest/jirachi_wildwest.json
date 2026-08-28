@@ -1,0 +1,46 @@
+{
+  "order": 98,
+  "species": "cobblemon:jirachi",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest_3.png"
+            ],
+            "loop": true
+          }
+        }
+      ],
+      "poser": "cobblemon:jirachi_wildwest",
+      "model": "cobblemon:jirachi_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest_shiny_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest_shiny_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest_shiny_3.png"
+            ],
+            "loop": true
+          }
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/jirachi_wildwest_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:rayquaza",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["slifer"
+      ],
+      "poser": "cobblemon:rayquaza2",
+      "model": "cobblemon:rayquaza_slifer.geo",
+      "texture": "cobblemon:textures/pokemon/rayquaza_slifer/rayquaza_slifer.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": ["slifer",
+        "mega"
+      ],
+      "poser": "cobblemon:megarayquaza",
+      "model": "cobblemon:megarayquaza_slifer.geo",
+      "texture": "cobblemon:textures/pokemon/rayquaza_slifer/megarayquaza_slifer.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/rayquaza_slifer/megarayquaza_slifer_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

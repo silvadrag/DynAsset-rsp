@@ -1,0 +1,1 @@
+{"parent":"item/handheld","textures":{"layer0":"item/netherite_shovel"},"overrides":[{"model":"ci:item/tools/gunslingerblaziken_shovel","predicate":{"custom_model_data":100001}},{"model":"ci:item/tools/gunslingerblazikenshiny_shovel","predicate":{"custom_model_data":100002}},{"model":"ci:item/tools/summer2025_shovel","predicate":{"custom_model_data":100003}}]}

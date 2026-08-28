@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:inteleonarcane",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:inteleonarcane",
+      "model": "cobblemon:inteleonarcane.geo",
+      "texture": "cobblemon:textures/pokemon/inteleonarcane/inteleon_arcane.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "model": "cobblemon:inteleonarcane.geo",
+      "poser": "cobblemon:inteleonarcane",
+      "texture": "cobblemon:textures/pokemon/inteleonarcane/inteleon_arcane_shiny.png",
+      "layers": []
+    }
+  ]
+}

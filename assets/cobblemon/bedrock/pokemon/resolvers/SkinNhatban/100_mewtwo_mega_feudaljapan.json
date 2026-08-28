@@ -1,0 +1,40 @@
+{
+  "order": 100,
+  "species": "cobblemon:mewtwo",
+  "variations": [
+    {
+      "aspects": ["skin-feudaljapan", "mega_x"],
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blank.png"
+        }
+      ],
+      "model": "cobblemon:mewtwo_mega_x_feudaljapan.geo",
+      "poser": "cobblemon:mewtwo_mega_x_feudaljapan",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/mewtwo_mega_x_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan", "mega_x"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/mewtwo_mega_x_feudaljapan_shiny.png"
+    },
+    {
+      "aspects": ["skin-feudaljapan", "mega_y"],
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blank.png"
+        }
+      ],
+      "model": "cobblemon:mewtwo_mega_y_feudaljapan.geo",
+      "poser": "cobblemon:mewtwo_mega_y_feudaljapan",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/mewtwo_mega_y_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan", "mega_y"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/mewtwo_mega_y_feudaljapan_shiny.png"
+    }
+  ]
+}

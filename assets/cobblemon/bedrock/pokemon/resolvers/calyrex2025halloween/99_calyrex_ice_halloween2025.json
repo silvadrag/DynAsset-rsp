@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:calyrex",
+  "order": 99,
+  "variations": [
+    {
+      "aspects": ["ice-rider", "skin_halloween2025"],
+      "poser": "cobblemon:calyrexice2025halloween",
+      "model": "cobblemon:calyrexice2025halloween.geo",
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_ice_halloween2025.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ice-rider",
+        "shiny",
+		"skin_halloween2025"
+      ],
+      "model": "cobblemon:calyrexice2025halloween.geo",
+      "poser": "cobblemon:calyrexice2025halloween",
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_ice_shiny_halloween2025.png",
+      "layers": []
+    }
+  ]
+}

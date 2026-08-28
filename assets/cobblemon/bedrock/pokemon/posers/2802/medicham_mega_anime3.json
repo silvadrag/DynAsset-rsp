@@ -1,0 +1,50 @@
+{
+  "head": "head",
+  "portraitScale": 1.7,
+  "portraitTranslation": [-0.2, 1.8, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.95, 0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "isBattle": false,
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "look",
+        "bedrock(medicham_mega_anime3, band_swing)",
+        "bedrock(medicham_mega_anime3, ground_idle)"
+      ],
+      "quirks": [
+        { "name": "blink", "animations": ["bedrock(medicham_mega_anime3, blink)"] }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "look",
+        "bedrock(medicham_mega_anime3, band_swing)",
+        "bedrock(medicham_mega_anime3, ground_walk)"
+      ],
+      "quirks": [
+        { "name": "blink", "animations": ["bedrock(medicham_mega_anime3, blink)"] }
+      ]
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "look",
+        "bedrock(medicham_mega_anime3, band_swing)",
+        "bedrock(medicham_mega_anime3, battle_idle)"
+      ],
+      "quirks": [
+        { "name": "blink", "animations": ["bedrock(medicham_mega_anime3, blink)"] }
+      ]
+    }
+  }
+}

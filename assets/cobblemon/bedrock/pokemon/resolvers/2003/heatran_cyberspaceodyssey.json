@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:heatran",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-cyberspaceodyssey"],
+      "model": "cobblemon:heatran_cyberspaceodyssey.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/heatran_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/heatran_cyberspaceodyssey_steam_3.png",
+              "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/heatran_cyberspaceodyssey_steam_2.png",
+              "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/heatran_cyberspaceodyssey_steam_1.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/heatran_cyberspaceodyssey_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "skin-cyberspaceodyssey"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/heatran_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/heatran_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

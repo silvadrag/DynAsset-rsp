@@ -1,0 +1,18 @@
+{
+  "order": 100,
+  "species": "cobblemon:gardevoir",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest", "mega"],
+      "layers": [],
+      "poser": "cobblemon:gardevoir_wildwest_mega",
+      "model": "cobblemon:gardevoir_mega_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/gardevoir_mega_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny", "mega"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/gardevoir_mega_wildwest_shiny.png"
+    }
+  ]
+}

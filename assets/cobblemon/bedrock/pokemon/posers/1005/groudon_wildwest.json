@@ -1,0 +1,41 @@
+{
+  "animations": {},
+  "portraitScale": 0.5,
+  "portraitTranslation": [-1.37, 2.4, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('groudon2', 'battle_idle')",
+        "q.bedrock('kyurem_fire_prisoner', 'particles')"
+      ],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": []
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('groudon2', 'ground_idle')",
+        "q.bedrock('kyurem_fire_prisoner', 'particles')"
+      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT", "HOVER"],
+      "quirks": []
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('groudon2', 'ground_idle')",
+        "q.biped_walk(0.6, 0.9, 'bone8', 'bone57')",
+        "q.bimanual_swing(0.6, 0.9, 'arm_left', 'arm_right')",
+        "q.bedrock('kyurem_fire_prisoner', 'particles')"
+      ],
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "quirks": []
+    }
+  },
+  "profileScale": 0.18,
+  "profileTranslation": [-0.07, 1.39, 0],
+  "rootBone": "groudon_wildwest"
+}

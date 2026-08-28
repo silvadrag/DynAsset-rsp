@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:gyarados",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-yearofthesnake"],
+      "model": "cobblemon:gyarados_yearofthesnake.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/gyarados_yearofthesnake.png"
+    },
+    {
+      "aspects": ["skin-yearofthesnake", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthesnake/gyarados_yearofthesnake_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "portraitScale": 1.0,
+  "portraitTranslation": [-0.2, 0.6, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.0, 0],
+  "animations":{
+        "cry": "bedrock(gengar1, cry)",
+        "special": "q.bedrock_primary('gengar1', 'special', q.curve('symmetrical_wide'))",
+        "status": "q.bedrock_primary('gengar1', 'status', q.curve('symmetrical_wide'))"
+	},
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": ["bedrock(gengar1, battle_idle)"],
+      "quirks": [{ "name": "blink", "animations": ["bedrock(gengar1, blink)"] }]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["look", "bedrock(gengar1, ground_idle)"],
+      "quirks": [{ "name": "blink", "animations": ["bedrock(gengar1, blink)"] }]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(gengar1, ground_walk)"],
+      "quirks": [{ "name": "blink", "animations": ["bedrock(gengar1, blink)"] }]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": ["HOVER"],
+      "animations": ["bedrock(gengar1, ground_idle)"],
+      "quirks": [{ "name": "blink", "animations": ["bedrock(gengar1, blink)"] }]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": ["FLY", "PROFILE"],
+      "animations": ["bedrock(gengar1, ground_walk)"],
+      "quirks": [{ "name": "blink", "animations": ["bedrock(gengar1, blink)"] }]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": ["look", "bedrock(gengar1, ground_idle)"],
+      "quirks": [{ "name": "blink", "animations": ["bedrock(gengar1, blink)"] }]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": ["SWIM"],
+      "animations": ["look", "bedrock(gengar1, ground_walk)"],
+      "quirks": [{ "name": "blink", "animations": ["bedrock(gengar1, blink)"] }]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": ["bedrock(gengar1, sleep)"]
+    }
+  }
+}

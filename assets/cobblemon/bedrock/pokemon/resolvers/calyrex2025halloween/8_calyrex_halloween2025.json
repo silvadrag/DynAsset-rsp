@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:calyrex",
+  "order": 8,
+  "variations": [
+    {
+      "aspects": ["skin_halloween2025"],
+      "poser": "cobblemon:calyrex",
+      "model": "cobblemon:calyrex2025halloween.geo",
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_halloween2025.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "skin_halloween2025",
+        "shiny"
+      ],
+      "model": "cobblemon:calyrex2025halloween.geo",
+      "poser": "cobblemon:calyrex",
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_shiny_halloween2025.png",
+      "layers": []
+    }
+  ]
+}

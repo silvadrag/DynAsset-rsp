@@ -1,0 +1,1 @@
+{"parent":"ci:item/tools/megagreninjashiny_shield_standby","overrides":[{"predicate":{"blocking":1},"model":"ci:item/tools/megagreninjashiny_shield_blocking"}]}

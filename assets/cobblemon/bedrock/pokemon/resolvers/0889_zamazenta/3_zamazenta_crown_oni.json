@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:zamazenta",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "crowned",
+        "oni"
+      ],
+      "poser": "cobblemon:zamazenta_crown_oni",
+      "model": "cobblemon:zamazenta_crown_oni.geo",
+      "texture": "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni.png",
+      "layers": [
+        {
+        "name": "emissive",
+        "texture": {
+            "frames": [
+            "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_emissive.png",
+            "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_emissive_2.png",
+            "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_emissive_3.png",
+            "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_emissive_4.png"
+            ],
+            "fps": 7,
+            "loop": true
+        },
+        "emissive": true
+        }
+      ]
+    },
+    {
+        "aspects": [
+            "crowned",
+            "oni",
+            "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_shiny.png",
+        "layers": [
+          {
+          "name": "emissive",
+          "texture": {
+              "frames": [
+              "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_shiny_emissive.png",
+              "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_shiny_emissive_2.png",
+              "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_shiny_emissive_3.png",
+              "cobblemon:textures/pokemon/zamazenta_oni/zamazenta_crown_oni_shiny_emissive_4.png"
+              ],
+              "fps": 7,
+              "loop": true
+          },
+          "emissive": true
+          }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.infernape_animeallstars.saiyan_aura": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": { "effect": "cobblemon:saiyan_yellow_aura", "locator": "root" }
+      }
+    },
+    "animation.infernape_animeallstars.saiyan_aura_dust": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": { "effect": "cobblemon:saiyan_aura_dust", "locator": "root" }
+      }
+    },
+    "animation.infernape_animeallstars.saiyan_electricity": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": {
+          "effect": "cobblemon:saiyan_yellow_electricity",
+          "locator": "root"
+        }
+      }
+    }
+  }
+}

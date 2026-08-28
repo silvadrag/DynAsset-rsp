@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:calyrexshadowrider2",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:calyrexshadow2025halloween",
+      "model": "cobblemon:calyrexshadow2025halloween.geo",
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_shadow_halloween2025.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_shadow_shiny_halloween2025.png"
+    }
+  ]
+}

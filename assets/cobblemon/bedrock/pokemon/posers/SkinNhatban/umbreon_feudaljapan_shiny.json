@@ -1,0 +1,70 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('umbreon_feudaljapan', 'cry')",
+    "physical": "q.bedrock_stateful('umbreon_feudaljapan', 'cry', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('umbreon_feudaljapan', 'recoil')",
+    "special": "q.bedrock_stateful('umbreon_feudaljapan', 'cry', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('umbreon_feudaljapan', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.71,
+  "portraitTranslation": [-0.45, 0.25, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umbreon_feudaljapan', 'battle_idle')",
+        "q.bedrock('umbreon_feudaljapan', 'glow')",
+        "q.bedrock('umbreon_feudaljapan', 'effects')",
+        "q.bedrock('feudaljapan', 'umbreon_shiny')"
+      ],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": [
+        "q.bedrock_quirk('umbreon_feudaljapan', 'blink')",
+        "q.bedrock_quirk('espeon_feudaljapan', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+      ]
+    },
+    "sleeping": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umbreon_feudaljapan', 'sleep')",
+        "q.bedrock('umbreon_feudaljapan', 'effects')",
+        "q.bedrock('feudaljapan', 'umbreon_shiny')"
+      ],
+      "poseTypes": ["SLEEP"],
+      "quirks": [
+        "q.bedrock_quirk('espeon_feudaljapan', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+      ]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umbreon_feudaljapan', 'ground_idle')",
+        "q.bedrock('umbreon_feudaljapan', 'effects')",
+        "q.bedrock('feudaljapan', 'umbreon_shiny')"
+      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "quirks": [
+        "q.bedrock_quirk('umbreon_feudaljapan', 'blink')",
+        "q.bedrock_quirk('espeon_feudaljapan', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umbreon_feudaljapan', 'ground_walk')",
+        "q.bedrock('umbreon_feudaljapan', 'effects')",
+        "q.bedrock('feudaljapan', 'umbreon_shiny')"
+      ],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": [
+        "q.bedrock_quirk('umbreon_feudaljapan', 'blink')",
+        "q.bedrock_quirk('espeon_feudaljapan', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 30, 60, 1)"
+      ]
+    }
+  },
+  "profileScale": 0.77,
+  "profileTranslation": [-0.01, 0.45, 0],
+  "rootBone": "umbreon_feudaljapan_shiny"
+}

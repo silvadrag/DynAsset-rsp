@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:swampert",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["quangvinh"],
+      "poser": "cobblemon:swampert2",
+      "model": "cobblemon:swampert2.geo",
+      "texture": "cobblemon:textures/pokemon/swampert2/swampert2.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "model": "cobblemon:swampert2.geo",
+      "poser": "cobblemon:swampert2",
+      "texture": "cobblemon:textures/pokemon/swampert2/swampert2_shiny.png",
+      "layers": []
+    }
+  ]
+}

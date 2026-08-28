@@ -1,0 +1,47 @@
+{
+  "head": "head",
+  "portraitScale": 1,
+  "portraitTranslation": [-0.8, 5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["look", "bedrock(hoopa_unbound_feudaljapan, battle_idle)"],
+      "isBattle": true,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(hoopa_unbound_feudaljapan, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(hoopa_unbound_feudaljapan, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(hoopa_unbound_feudaljapan, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(hoopa_unbound_feudaljapan, ground_idle)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK", "HOVER", "FLY"],
+      "quirks": [
+        {
+          "animations": ["bedrock(hoopa_unbound_feudaljapan, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.2,
+  "profileTranslation": [0, 1.6, 0]
+}

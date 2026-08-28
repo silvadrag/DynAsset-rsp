@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:hatterene",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": [
+        "skin-cartooncrate"
+      ],
+      "poser": "cobblemon:hatterene_cartooncrate",
+      "model": "cobblemon:hatterene_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/hatterene1/hatterene1.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin-cartooncrate"
+      ],
+      "texture": "cobblemon:textures/pokemon/hatterene1/hatterene1_shiny.png",
+      "layers": []
+    }
+  ]
+}

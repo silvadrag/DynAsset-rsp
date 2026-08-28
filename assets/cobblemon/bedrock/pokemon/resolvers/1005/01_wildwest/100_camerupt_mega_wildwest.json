@@ -1,0 +1,31 @@
+{
+  "order": 100,
+  "species": "cobblemon:camerupt",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/camerupt_mega_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:camerupt_mega_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/camerupt_mega_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/camerupt_mega_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/camerupt_mega_wildwest_shiny.png"
+    }
+  ]
+}

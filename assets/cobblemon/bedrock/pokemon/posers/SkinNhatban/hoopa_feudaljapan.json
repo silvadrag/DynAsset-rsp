@@ -1,0 +1,46 @@
+{
+  "animations": {
+    "faint": "q.bedrock_primary('hoopa_feudaljapan', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('hoopa_feudaljapan', 'special', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('hoopa_feudaljapan', 'recoil')",
+    "special": "q.bedrock_primary('hoopa_feudaljapan', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('hoopa_feudaljapan', 'special', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2.5,
+  "portraitTranslation": [0.48, -0.9, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('hoopa_feudaljapan', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "HOVER", "FLOAT"],
+      "quirks": [
+        "q.bedrock_quirk('hoopa_feudaljapan', 'blink')",
+        "q.bedrock_quirk('hoopa_feudaljapan', 'quirk_look')"
+      ]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('hoopa_feudaljapan', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('hoopa_feudaljapan', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER", "FLOAT"],
+      "quirks": [
+        "q.bedrock_quirk('hoopa_feudaljapan', 'blink')",
+        "q.bedrock_quirk('hoopa_feudaljapan', 'quirk_look')"
+      ]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('hoopa_feudaljapan', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "quirks": [
+        "q.bedrock_quirk('hoopa_feudaljapan', 'blink')",
+        "q.bedrock_quirk('hoopa_feudaljapan', 'quirk_look')"
+      ]
+    }
+  },
+  "profileScale": 0.92,
+  "profileTranslation": [-0.12, 0.5, 0],
+  "rootBone": "hoopa"
+}

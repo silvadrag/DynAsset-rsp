@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:koraidon",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-animeallstarseb"],
+      "model": "cobblemon:koraidon_animeallstarseb.geo",
+      "poser": "cobblemon:koraidon_animeallstarseb",
+      "texture": "cobblemon:textures/pokemon/0000_skins/animeallstarseb/koraidon_animeallstarseb.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/animeallstarseb/koraidon_animeallstarseb_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-animeallstarseb", "shiny"],
+      "model": "cobblemon:koraidon_animeallstarseb.geo",
+      "poser": "cobblemon:koraidon_animeallstarseb",
+      "texture": "cobblemon:textures/pokemon/0000_skins/animeallstarseb/koraidon_animeallstarseb_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/animeallstarseb/koraidon_animeallstarseb_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

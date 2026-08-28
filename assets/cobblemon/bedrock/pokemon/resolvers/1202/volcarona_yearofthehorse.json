@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:volcarona",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-yearofthehorse"],
+      "model": "cobblemon:ironmoth_yearofthehorse.geo",
+      "poser": "cobblemon:volcarona",
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/ironmoth_yearofthehorse.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/ironmoth_yearofthehorse_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-yearofthehorse", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/ironmoth_yearofthehorse_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/ironmoth_yearofthehorse_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

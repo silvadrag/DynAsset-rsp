@@ -1,0 +1,2071 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:battlepass/ui/portal.png",
+            "ascent": 47,
+            "height": 232,
+            "chars": [
+                "ᖀ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:battlepass/ui/daily_quests.png",
+            "ascent": 50,
+            "height": 232,
+            "chars": [
+                "ᖁ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:battlepass/ui/week.png",
+            "ascent": 35,
+            "height": 244,
+            "chars": [
+                "ᖂ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:battlepass/ui/quest_overview.png",
+            "ascent": 50,
+            "height": 232,
+            "chars": [
+                "ᖃ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:battlepass/ui/rewards.png",
+            "ascent": 35,
+            "height": 244,
+            "chars": [
+                "ᖄ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:battlepass/ui/progress_bar.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ᖅ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:battlepass/ui/bp.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ᖆ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/admin.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐠ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/trainer.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐡ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/mythic.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐢ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/owner.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐣ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/legendary.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐤ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/gymleader.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐥ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/epic.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐦ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/ace.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐧ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/master.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐨ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/great.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐩ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/ultra.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐪ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/streamer.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐫ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/youtube.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐭ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/builder.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐮ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/champion.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐯ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/helper.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐰ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:betterranks/npc.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ꐱ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/xidach/menu.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "∂"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/xidach/bet.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "ժ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/xidach/playing.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "ძ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/eventtet/claim.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "ъ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/eventtet/send.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "ь"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/eventtet/list.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "ɓ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/eventtet/leaderboard.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "в"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cobbledollar/eventtet/rewards.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "乃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/duangua.png",
+            "ascent": 17,
+            "height": 256,
+            "chars": [
+                "Ꝟ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/duangua2.png",
+            "ascent": 17,
+            "height": 256,
+            "chars": [
+                "Ꚛ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/bicanh.png",
+            "ascent": 17,
+            "height": 256,
+            "chars": [
+                "Ꞣ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/eventshop.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": [
+                "ꗍ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/kitrank.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "Ꝑ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/shoprank.png",
+            "ascent": 17,
+            "height": 256,
+            "chars": [
+                "ᵾ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/shopkey.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": [
+                "ꕶ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/battlepassup.png",
+            "ascent": 17,
+            "height": 256,
+            "chars": [
+                "Ꝝ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/gui/shoprankandkit.png",
+            "ascent": 17,
+            "height": 256,
+            "chars": [
+                "⟢"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/icon/empty.png",
+            "ascent": 5,
+            "height": 5,
+            "chars": [
+                "Ṩ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/icon/exp.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "ṩ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/icon/filled.png",
+            "ascent": 5,
+            "height": 5,
+            "chars": [
+                "Ṫ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/icon/left_click.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṫ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/icon/right_click.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṭ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/misc/empty.png",
+            "ascent": -32768,
+            "height": -10,
+            "chars": [
+                "ṭ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/chat/prefix.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṯ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/alchemist.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṯ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/assassin.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṱ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/blacksmith.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṱ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/builder.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṳ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/crafter.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṳ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/digger.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṵ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/enchanter.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṵ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/farmer.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṷ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/fisherman.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṷ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/hunter.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṹ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/lumberjack.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṹ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/miner.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṻ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/job/smelter.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṻ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/adept.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṽ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/apprentice.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṽ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/grandmaster.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ṿ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/initiate.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ṿ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/journeyman.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ẁ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/legendary.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ẁ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/master.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "Ẃ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:cubejobs/prefix/rank/novice.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ẃ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/romtoms1.png",
+            "ascent": 52,
+            "height": 256,
+            "chars": [
+                "➛"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/romtoms2.png",
+            "ascent": 52,
+            "height": 256,
+            "chars": [
+                "ꗌ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/romtoms3.png",
+            "ascent": 52,
+            "height": 256,
+            "chars": [
+                "ꘈ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/romtoms4.png",
+            "ascent": 52,
+            "height": 256,
+            "chars": [
+                "ꘉ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/backpackui.png",
+            "ascent": 36,
+            "height": 256,
+            "chars": [
+                "꡷"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/mapalpha.png",
+            "ascent": 16,
+            "height": 256,
+            "chars": [
+                "꤮"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/crate2.png",
+            "ascent": 16,
+            "height": 256,
+            "chars": [
+                "꤯"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/cartoon_crate_1.png",
+            "ascent": 103,
+            "height": 256,
+            "chars": [
+                "ᐇ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/cartoon_crate_2.png",
+            "ascent": 103,
+            "height": 256,
+            "chars": [
+                "ᐈ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/rtpch.png",
+            "ascent": 18,
+            "height": 255,
+            "chars": [
+                "ẞ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/dungeons1.png",
+            "ascent": 16,
+            "height": 256,
+            "chars": [
+                "ꘑ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/gts_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚛ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/gts_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚜ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/skill_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "꛳"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/skill_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "꛴"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/raid_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚝ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/raid_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚞ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/tip_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚟ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/tip_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚠ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/alpha_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚡ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/alpha_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚢ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/clear_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚣ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/clear_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚤ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/daily_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚥ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/daily_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚦ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/hunt_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚧ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/hunt_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚨ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/rtp_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚩ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/rtp_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚪ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/lylee_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚭ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/lylee_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚮ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/ranked_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚫ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/ranked_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚬ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/bp_icon_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚯ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/bp_tag.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚰ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/player_join.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚱ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/player_leave.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": [
+                "ꚲ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/caoboi_crate_1.png",
+            "ascent": 63,
+            "height": 256,
+            "chars": [
+                "ꘒ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/caoboi_crate_2.png",
+            "ascent": 63,
+            "height": 256,
+            "chars": [
+                "ꘓ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/japan_crate_left.png",
+            "ascent": 63,
+            "height": 256,
+            "chars": [
+                "ꘔ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/japan_crate_right.png",
+            "ascent": 73,
+            "height": 256,
+            "chars": [
+                "ꘕ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/japan_crate_milestone_left.png",
+            "ascent": 86,
+            "height": 256,
+            "chars": [
+                "ꘖ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/japan_crate_milestone_right.png",
+            "ascent": 86,
+            "height": 256,
+            "chars": [
+                "ꘗ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/summer2026_crate.png",
+            "ascent": 67,
+            "height": 256,
+            "chars": [
+                "ꘘ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rotompad/dungeons2.png",
+            "ascent": 16,
+            "height": 256,
+            "chars": [
+                "Ꝏ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/top_logo_1.png",
+            "ascent": 53,
+            "height": 84,
+            "chars": [
+                "ꐐ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/top_logo_2.png",
+            "ascent": 53,
+            "height": 84,
+            "chars": [
+                "ꐑ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/bottom_news.png",
+            "ascent": -1,
+            "height": 78,
+            "chars": [
+                "ꐒ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/quit_button.png",
+            "ascent": 27,
+            "height": 36,
+            "chars": [
+                "ꐓ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/back_button.png",
+            "ascent": 22,
+            "height": 35,
+            "chars": [
+                "ꐔ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/options_icon_button.png",
+            "ascent": 14,
+            "height": 22,
+            "chars": [
+                "ꐕ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/preport_icon_button.png",
+            "ascent": 14,
+            "height": 22,
+            "chars": [
+                "ꐖ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/rbugs_icon_button.png",
+            "ascent": 14,
+            "height": 22,
+            "chars": [
+                "ꐗ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/feedback_icon_button.png",
+            "ascent": 38,
+            "height": 46,
+            "chars": [
+                "ꐘ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:dark_esc/stats_icon_button.png",
+            "ascent": 14,
+            "height": 22,
+            "chars": [
+                "ꐙ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/gtslist.png",
+            "ascent": 72,
+            "height": 192,
+            "chars": [
+                "෴"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/itemorther.png",
+            "ascent": 72,
+            "height": 192,
+            "chars": [
+                "⚚"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/gtslistpokemons.png",
+            "ascent": 72,
+            "height": 192,
+            "chars": [
+                "⚝"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/gtslistitems.png",
+            "ascent": 72,
+            "height": 192,
+            "chars": [
+                "⚸"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/itemowner.png",
+            "ascent": 72,
+            "height": 192,
+            "chars": [
+                "⚯"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/gtstrangmylist.png",
+            "ascent": 72,
+            "height": 192,
+            "chars": [
+                "⚳"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/huntsgui.png",
+            "ascent": 41,
+            "height": 250,
+            "chars": [
+                "⚶"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/guiskin2.png",
+            "ascent": 41,
+            "height": 253,
+            "chars": [
+                "⚷"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:fancymenu/gts/raidgui.png",
+            "ascent": 76,
+            "height": 256,
+            "chars": [
+                "⚵"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/logo.png",
+            "ascent": 20,
+            "height": 36,
+            "chars": [
+                "ு"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/ui/menu_banner.png",
+            "ascent": -14,
+            "height": 256,
+            "chars": [
+                "ூ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/recipe_showcase.png",
+            "ascent": 40,
+            "height": 164,
+            "chars": [
+                "௃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/ui/menu_items.png",
+            "ascent": 37,
+            "height": 256,
+            "chars": [
+                "௄"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/ui/menu_items_gems.png",
+            "ascent": 37,
+            "height": 256,
+            "chars": [
+                "௅"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/eventcratequay.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/eventcratexem.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∄"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/legendaryquay.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∆"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/legendaryshinyquay.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∇"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/legendaryxem.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∋"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/legendaryxem.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∌"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/phieuluuquay.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∏"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/phieuluuxem.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∐"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/shinystarterquay.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∘"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/shinystarterxem.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∙"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/spawnfoodquay.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∝"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:nimbus/spawnfoodxem.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "∟"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/menurank.png",
+            "ascent": 15,
+            "height": 255,
+            "chars": [
+                "〆"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/selectpokemon.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/matchrank.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "༗"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/blacklist.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "〄"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/guiskin1.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "〃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/tower.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "〓"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/rankking.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "㊎"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/rewardrank.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "乙"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/lead.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "Ⓛ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/cosmeticnew.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "〷"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/cosmeticnew2.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "〸"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/bottlecap.png",
+            "ascent": 16,
+            "height": 255,
+            "chars": [
+                "〹"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_pen1.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "〺"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_pen2.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "〻"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_pen3.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊠"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_pen4.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊡"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_pen5.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊢"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_pen6.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊣"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_party.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "〼"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_eggbag_0.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "〽"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_eggbag_1.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "〾"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_eggbag_2.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "〿"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/daycare_eggbag_3.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊟"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/shopxoaytua1.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊤"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/shopxoaytua2.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊥"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/movelearn1.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊦"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/movelearn2.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊧"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/movelearn3.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊨"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rankbattlenew/movelearn4.png",
+            "ascent": 20,
+            "height": 255,
+            "chars": [
+                "㊩"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/guirank1.png",
+            "ascent": 133,
+            "height": 256,
+            "chars": [
+                "Ҩ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/homegui.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "ꭒ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/cottruyen.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "⚆"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/alpha.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "ꗉ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/mundo.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "Ѧ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/inframundo.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "Ѯ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/fin.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "Ѱ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/bpcoin.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "Ѵ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/skincoin.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "Ѷ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/rankcoin.png",
+            "ascent": 21,
+            "height": 256,
+            "chars": [
+                "ѷ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/gui/nada.png",
+            "ascent": -32768,
+            "height": -10,
+            "chars": [
+                "Ѳ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixlogo.png",
+            "ascent": 10,
+            "height": 25,
+            "chars": [
+                "Җ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixinframundo.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixmundo.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixfin.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixayuda.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixcerrar.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixabrir.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/prefixteletransporte.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/pre1.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                "Ϟ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/pre2.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                "ϟ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:rtp/prefix/pre3.png",
+            "ascent": 10,
+            "height": 12,
+            "chars": [
+                "Ϡ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -1,
+            "chars": [
+                "ᆛ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 0,
+            "chars": [
+                "ᆜ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 2,
+            "chars": [
+                "ᆝ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 6,
+            "chars": [
+                "ᆞ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 14,
+            "chars": [
+                "ᆟ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 30,
+            "chars": [
+                "ᆠ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 62,
+            "chars": [
+                "ᆡ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 126,
+            "chars": [
+                "ᆢ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 254,
+            "chars": [
+                "ᆣ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 510,
+            "chars": [
+                "ᆤ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": 1022,
+            "chars": [
+                "ᆥ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -3,
+            "chars": [
+                "ᆦ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -4,
+            "chars": [
+                "ᆧ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -6,
+            "chars": [
+                "ᆨ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -10,
+            "chars": [
+                "ᆩ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -18,
+            "chars": [
+                "ᆪ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -34,
+            "chars": [
+                "ᆫ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -66,
+            "chars": [
+                "ᆬ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -130,
+            "chars": [
+                "ᆭ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -258,
+            "chars": [
+                "ᆮ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -514,
+            "chars": [
+                "ᆯ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:required/null.png",
+            "ascent": -32768,
+            "height": -1026,
+            "chars": [
+                "ᆰ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spectra_trade_ui/spectra_trade_ui/trade_ui.png",
+            "ascent": 48,
+            "height": 256,
+            "chars": [
+                "ꐜ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spectra_trade_ui/spectra_trade_ui/trade_not_ready.png",
+            "ascent": -48,
+            "height": 15,
+            "chars": [
+                "ꐝ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spectra_trade_ui/spectra_trade_ui/trade_ready.png",
+            "ascent": -48,
+            "height": 15,
+            "chars": [
+                "ꐞ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spectra_daily_rewards/daily_reward_ui.png",
+            "ascent": 48,
+            "height": 256,
+            "chars": [
+                "ꐶ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:spectra_daily_rewards/unopened_box.png",
+            "ascent": 9,
+            "height": 40,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/space"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/default",
+            "filter": {
+                "uniform": false
+            }
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/unifont"
+        }
+    ]
+}

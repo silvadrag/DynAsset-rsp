@@ -1,0 +1,135 @@
+{
+  "species": "cobblemon:conkeldurr",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["christmas"],
+      "texture": "cobblemon:textures/pokemon/conkeldurr_christmas.png",
+      "model": "cobblemon:conkeldurr_christmas.geo"
+    },
+    {
+      "aspects": ["christmas","shiny"],
+      "texture": "cobblemon:textures/pokemon/conkeldurr_christmas_shiny.png"
+    },
+    {
+      "aspects": ["christmas", "color-white"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_white.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-orange"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_orange.png"
+        }
+      ] 
+    },
+    {
+      "aspects": ["christmas", "color-magenta"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_magenta.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-light_blue"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_light_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-yellow"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_yellow.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-lime"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_lime.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-pink"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_pink.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-gray"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_gray.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-purple"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_purple.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-blue"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-brown"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_brown.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-green"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_green.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-red"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_red.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-black"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_black.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["christmas", "color-light_gray"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/color/conkeldurr_present_light_gray.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "order": 100,
+  "species": "cobblemon:aggron",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/aggron_mega_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:aggron_mega_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/aggron_mega_wildwest.png",
+      "poser": "cobblemon:aggron_wildwest_mega"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/aggron_mega_wildwest_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/aggron_mega_wildwest_shiny.png"
+    }
+  ]
+}

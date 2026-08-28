@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:zacian4",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:zacian_crown_shogun",
+      "model": "cobblemon:zacian_crown_shogun.geo",
+      "texture": "cobblemon:textures/pokemon/zacian_shogun/zacian_crown_shogun.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/zacian_shogun/zacian_crown_shogun_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/zacian_shogun/zacian_crown_shogun_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/zacian_shogun/zacian_crown_shogun_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

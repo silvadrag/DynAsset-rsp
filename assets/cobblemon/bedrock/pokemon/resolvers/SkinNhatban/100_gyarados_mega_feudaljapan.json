@@ -1,0 +1,18 @@
+{
+  "order": 100,
+  "species": "cobblemon:gyarados",
+  "variations": [
+    {
+      "aspects": ["skin-feudaljapan", "mega"],
+      "layers": [],
+      "poser": "cobblemon:gyarados_mega1",
+      "model": "cobblemon:gyarados_mega_feudaljapan.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/gyarados_mega_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan", "mega"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/gyarados_mega_feudaljapan_shiny.png"
+    }
+  ]
+}

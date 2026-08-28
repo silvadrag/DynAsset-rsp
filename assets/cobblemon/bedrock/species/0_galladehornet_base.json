@@ -1,0 +1,1 @@
+{"species":"cobblemon:galladehornet","order":0,"variations":[{"aspects":[],"poser":"cobblemon:gallade","model":"cobblemon:galladehornet.geo","texture":"cobblemon:textures/pokemon/galladehornet/galladehornet.png","layers":[{"name":"glow","texture":"cobblemon:textures/pokemon/galladehornet/galladehornet_emissive.png","emissive":true}]}]}

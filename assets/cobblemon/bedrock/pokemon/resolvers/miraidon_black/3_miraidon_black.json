@@ -1,0 +1,28 @@
+{
+  "species": "cobblemon:miraidon",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["black"],
+      "poser": "cobblemon:miraidon_black",
+      "model": "cobblemon:miraidon_black.geo",
+      "texture": "cobblemon:textures/pokemon/miraidon_black/miraidon_black.png",
+      "layers": [
+        {
+        "name": "emissive",
+        "texture": {
+            "frames": [
+            "cobblemon:textures/pokemon/miraidon_black/miraidon_black_emissive.png",
+            "cobblemon:textures/pokemon/miraidon_black/miraidon_black_emissive_2.png",
+            "cobblemon:textures/pokemon/miraidon_black/miraidon_black_emissive_3.png",
+            "cobblemon:textures/pokemon/miraidon_black/miraidon_black_emissive_4.png"
+            ],
+            "fps": 10,
+            "loop": true
+        },
+        "emissive": true
+        }
+      ]
+    }
+  ]
+}

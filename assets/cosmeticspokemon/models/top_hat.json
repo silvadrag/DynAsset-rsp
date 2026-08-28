@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "cosmeticspokemon:top_hat"
+	},
+	"elements": [
+		{
+			"name": "Head",
+			"from": [3.4, 2, 3.4],
+			"to": [12.6, 10, 12.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.2, 5.65]},
+			"faces": {
+				"north": {"uv": [7.5, 3, 9.75, 5.25], "texture": "#2"},
+				"east": {"uv": [7.5, 3, 9.75, 5.25], "texture": "#2"},
+				"south": {"uv": [7.5, 3, 9.75, 5.25], "texture": "#2"},
+				"west": {"uv": [7.5, 3, 9.75, 5.25], "texture": "#2"},
+				"up": {"uv": [2.25, 5.25, 0, 3], "texture": "#2"},
+				"down": {"uv": [4.5, 3, 2.25, 5.25], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3, 2, 2],
+			"to": [13, 2, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.2, 5.65]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 0], "texture": "#2"},
+				"east": {"uv": [0, 0, 3, 0], "texture": "#2"},
+				"south": {"uv": [0, 0, 2.5, 0], "texture": "#2"},
+				"west": {"uv": [0, 0, 3, 0], "texture": "#2"},
+				"up": {"uv": [2.5, 3, 0, 0], "texture": "#2"},
+				"down": {"uv": [5, 0, 2.5, 3], "texture": "#2"}
+			}
+		},
+		{
+			"from": [2.45714, 0.10181, 2],
+			"to": [3.45714, 0.10181, 14],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 2.2, 5.65]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 0], "texture": "#2"},
+				"east": {"uv": [0, 0, 3, 0], "texture": "#2"},
+				"south": {"uv": [0, 0, 0.25, 0], "texture": "#2"},
+				"west": {"uv": [0, 0, 3, 0], "texture": "#2"},
+				"up": {"uv": [0.25, 8.25, 0, 5.25], "texture": "#2"},
+				"down": {"uv": [0.5, 5.25, 0.25, 8.25], "texture": "#2"}
+			}
+		},
+		{
+			"from": [12.54286, 0.10181, 2],
+			"to": [13.54286, 0.10181, 14],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 2.2, 5.65]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 0], "texture": "#2"},
+				"east": {"uv": [0, 0, 3, 0], "texture": "#2"},
+				"south": {"uv": [0, 0, 0.25, 0], "texture": "#2"},
+				"west": {"uv": [0, 0, 3, 0], "texture": "#2"},
+				"up": {"uv": [0.75, 8.25, 0.5, 5.25], "texture": "#2"},
+				"down": {"uv": [1, 5.25, 0.75, 8.25], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [18.5, 168, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"head": {
+			"translation": [0, 11.25, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Hat",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "portraitScale": 1.66,
+  "portraitTranslation": [-0.14, -0.74, 0],
+  "profileScale": 1,
+  "profileTranslation": [0.0, 0.24, 0.0],
+  "rootBone": "ditto",
+  "animations": {
+    "faint": "q.bedrock_primary('ditto_ben10k', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('ditto_ben10k', 'cry')",
+    "recoil": "q.bedrock_stateful('ditto_ben10k', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('ditto_ben10k', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('ditto_ben10k', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('ditto_ben10k', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('ditto_ben10k', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ditto_ben10k', 'sleep')"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "order": 100,
+  "species": "cobblemon:greninja",
+  "variations": [
+    {
+      "aspects": ["skin-collection-summer2026", "mega"],
+      "layers": [],
+      "poser": "cobblemon:greninja_mega_summer2026",
+      "model": "cobblemon:greninja_mega_summer2026.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/collections/summer2026/greninja_mega_summer2026.png"
+    },
+    {
+      "aspects": ["skin-collection-summer2026", "shiny", "mega"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/collections/summer2026/greninja_mega_summer2026_shiny.png"
+    }
+  ]
+}

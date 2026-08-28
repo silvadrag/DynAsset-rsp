@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:gholdengoarcane",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gholdengo",
+      "model": "cobblemon:gholdengoarcane.geo",
+      "texture": "cobblemon:textures/pokemon/gholdengoarcane/gholdengo_arcane.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "model": "cobblemon:gholdengoarcane.geo",
+      "poser": "cobblemon:gholdengo",
+      "texture": "cobblemon:textures/pokemon/gholdengoarcane/gholdengo_arcane_shiny.png",
+      "layers": []
+    }
+  ]
+}

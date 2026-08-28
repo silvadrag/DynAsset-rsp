@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:ursalunakyou",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ursalunakyou",
+      "model": "cobblemon:ursalunakyou.geo",
+      "texture": "cobblemon:textures/pokemon/ursalunakyou/ursalunakyou.png",
+      "layers": [
+        {
+          "name":"emissive",
+          "emissive":true,
+          "texture":"cobblemon:textures/pokemon/ursalunakyou/ursalunakyou_emissive.png",
+          "translucent":true
+        }
+      ]
+    }
+  ]
+}

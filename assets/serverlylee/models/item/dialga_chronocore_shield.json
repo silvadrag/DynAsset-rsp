@@ -1,0 +1,1 @@
+{"parent":"ci:item/tools/dialga_chronocore_shield","overrides":[{"predicate":{"blocking":1},"model":"ci:item/tools/dialga_chronocore_shield_blocking"}]}

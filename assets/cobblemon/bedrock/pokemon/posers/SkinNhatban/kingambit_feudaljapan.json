@@ -1,0 +1,24 @@
+{
+  "animations": {},
+  "portraitScale": 2.04,
+  "portraitTranslation": [-0.44, 2.48, 0],
+  "poses": {
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('kingambit_feudaljapan', 'ground_idle')"],
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('kingambit_feudaljapan', 'blink')"]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('kingambit_feudaljapan', 'ground_idle')",
+        "q.biped_walk(1, 1, 'leg_left', 'leg_right')"
+      ],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('kingambit_feudaljapan', 'blink')"]
+    }
+  },
+  "profileScale": 0.41,
+  "profileTranslation": [0.02, 1.14, 0],
+  "rootBone": "kingambit"
+}

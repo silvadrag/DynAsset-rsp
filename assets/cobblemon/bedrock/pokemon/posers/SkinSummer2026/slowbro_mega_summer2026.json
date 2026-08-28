@@ -1,0 +1,58 @@
+{
+  "cry": "bedrock(slowbro_mega, cry)",
+  "head": "head",
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.23, 0.46, 0],
+  "poses": {
+    "floating": {
+      "animations": ["look", "bedrock(slowbro_mega_summer2026, water_idle)"],
+      "poseName": "floating",
+      "poseTypes": ["FLOAT"],
+      "quirks": [
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink)"], "name": "blink" },
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink2)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(slowbro_mega_summer2026, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "quirks": [],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(slowbro_mega_summer2026, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink)"], "name": "blink" },
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink2)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    },
+    "swimming": {
+      "animations": ["look", "bedrock(slowbro_mega_summer2026, water_swim)"],
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "quirks": [
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink)"], "name": "blink" },
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink2)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(slowbro_mega_summer2026, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink)"], "name": "blink" },
+        { "animations": ["bedrock(slowbro_mega_summer2026, blink2)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.95,
+  "profileTranslation": [0, 0.3, 0],
+  "rootBone": "slowbro"
+}

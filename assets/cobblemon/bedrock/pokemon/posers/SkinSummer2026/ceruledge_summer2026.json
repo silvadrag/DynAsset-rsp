@@ -1,0 +1,63 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('ceruledge', 'cry')",
+    "faint": "q.bedrock_primary('ceruledge', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('ceruledge', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('ceruledge', 'recoil')",
+    "special": "q.bedrock_primary('ceruledge', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('ceruledge', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.2, 2.45, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ceruledge', 'battle_idle')",
+        "q.bedrock('ceruledge', 'eye_flame_overlay')",
+        "q.bedrock('ninjasbundle', 'water')"
+      ],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('ceruledge', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('ceruledge', 'blink')"]
+    },
+    "sleep": {
+      "animations": [
+        "q.bedrock('ceruledge', 'sleep')",
+        "q.bedrock('ninjasbundle', 'water')"
+      ],
+      "namedAnimations": { "cry": "q.bedrock_stateful('dummy', 'cry')" },
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ceruledge', 'ground_idle')",
+        "q.bedrock('ceruledge', 'eye_flame_overlay')",
+        "q.bedrock('ninjasbundle', 'water')"
+      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('ceruledge', 'blink')"],
+      "transitions": {
+        "battle-standing": "q.bedrock_primary('ceruledge', 'battle_intro', q.curve('symmetrical_wide'))"
+      }
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ceruledge', 'ground_walk')",
+        "q.bedrock('ceruledge', 'eye_flame_overlay')",
+        "q.bedrock('ninjasbundle', 'water')"
+      ],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('ceruledge', 'blink')"]
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.0, 0],
+  "rootBone": "ceruledge"
+}

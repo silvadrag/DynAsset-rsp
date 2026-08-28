@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:slaking",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "skin_natal2025"
+      ],
+      "poser": "cobblemon:slaking",
+      "model": "cobblemon:slakingnatal2025.geo",
+      "texture": "cobblemon:textures/pokemon/slakingnatal2025/slaking_natal2025.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin_natal2025"
+      ],
+      "poser": "cobblemon:slaking",
+      "model": "cobblemon:slakingnatal2025.geo",
+      "texture": "cobblemon:textures/pokemon/slakingnatal2025/slaking_shiny_natal2025.png",
+      "layers": []
+    }
+  ]
+}

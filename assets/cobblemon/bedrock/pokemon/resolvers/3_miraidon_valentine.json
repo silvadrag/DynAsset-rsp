@@ -1,0 +1,38 @@
+{
+  "species": "cobblemon:miraidon",
+  "order": 3,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.5,
+    "height": 2,
+    "fixed": false
+  },
+  "variations": [
+    {
+      "aspects": ["valentine"],
+      "poser": "cobblemon:miraidon",
+      "model": "cobblemon:miraidon_valentine.geo",
+      "texture": "cobblemon:textures/pokemon/valentine/miraidon_valentine.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/valentine/miraidon_valentine_emissive.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny","valentine"],
+      "texture": "cobblemon:textures/pokemon/valentine/miraidon_valentine_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/valentine/miraidon_valentine_emissive.png",
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}

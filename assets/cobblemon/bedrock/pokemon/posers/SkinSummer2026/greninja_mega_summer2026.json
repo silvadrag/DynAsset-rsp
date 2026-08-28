@@ -1,0 +1,39 @@
+{
+  "animations": { "cry": "q.bedrock_stateful('greninja', 'cry')" },
+  "portraitScale": 1.85,
+  "portraitTranslation": [-0.55, 4.26, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('greninja_mega_summer2026', 'battle_idle')"
+      ],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('greninja_mega_summer2026', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('greninja_mega_summer2026', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('greninja_mega_summer2026', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('greninja_mega_summer2026', 'blink')"]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('greninja_mega_summer2026', 'ground_walk')"
+      ],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('greninja_mega_summer2026', 'blink')"]
+    }
+  },
+  "profileScale": 0.53,
+  "profileTranslation": [0, 1.96, 0]
+}

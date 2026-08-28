@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "guidite_server_pack:item/armors/arcaninefeudaljapan_chestplate"
+  }
+}

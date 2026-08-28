@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lopunny1",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lopunny1",
+      "model": "cobblemon:lopunny1.geo",
+      "texture": "cobblemon:textures/pokemon/lopunny1/lopunny1.png",
+      "layers": [
+        {
+					"name": "emissive",
+          "emissive": true,
+					"texture": "cobblemon:textures/pokemon/lopunny1/lopunny1_emissive.png"
+				}
+      ]
+    }
+  ]
+}

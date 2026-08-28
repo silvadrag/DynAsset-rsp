@@ -1,0 +1,32 @@
+{
+  "order": 100,
+  "species": "cobblemon:gyarados",
+  "variations": [
+    {
+      "aspects": ["skin-collection-summer2026", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/collections/summer2026/gyarados_mega_summer2026_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:gyarados_mega_summer2026.geo",
+      "poser": "cobblemon:gyarados_mega1",
+      "texture": "cobblemon:textures/pokemon/0000_skins/collections/summer2026/gyarados_mega_summer2026.png"
+    },
+    {
+      "aspects": ["skin-collection-summer2026", "shiny", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/collections/summer2026/gyarados_mega_summer2026_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/collections/summer2026/gyarados_mega_summer2026_shiny.png"
+    }
+  ]
+}

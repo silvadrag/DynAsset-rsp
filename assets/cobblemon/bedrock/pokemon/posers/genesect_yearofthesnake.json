@@ -1,0 +1,50 @@
+{
+  "portraitScale": 1.3,
+  "portraitTranslation": [-0.7, 1.45, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [-0.1, 1, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('genesect_yearofthesnake', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "FLOAT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('genesect_yearofthesnake', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_primary_quirk('genesect_yearofthesnake', q.array('quirk1'), 15, 30, 1)",
+        "q.bedrock_quirk('genesect_yearofthesnake', q.array('quirk3_overlay'), 5, 30, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('genesect_yearofthesnake', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_primary_quirk('genesect_yearofthesnake', q.array('quirk2'), 15, 35, 1)",
+        "q.bedrock_quirk('genesect_yearofthesnake', q.array('quirk3_overlay'), 5, 30, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('genesect_yearofthesnake', 'ground_walk')"
+      ]
+    },
+    "hovering": {
+      "poseTypes": ["HOVER", "FLY"],
+      "animations": ["q.look('head')", "q.bedrock('genesect_yearofthesnake', 'ground_run')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('genesect_yearofthesnake', 'sleep')"]
+    }
+  }
+}

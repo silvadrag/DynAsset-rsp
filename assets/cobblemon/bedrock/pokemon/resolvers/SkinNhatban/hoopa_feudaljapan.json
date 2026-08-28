@@ -1,0 +1,33 @@
+{
+  "order": 98,
+  "species": "cobblemon:hoopa",
+  "variations": [
+    {
+      "aspects": ["skin-feudaljapan"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/hoopa_feudaljapan_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:hoopa_feudaljapan.geo",
+      "poser": "cobblemon:hoopa_feudaljapan",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/hoopa_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/hoopa_feudaljapan_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "poser": "cobblemon:hoopa_feudaljapan",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/hoopa_feudaljapan_shiny.png"
+    }
+  ]
+}

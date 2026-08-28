@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:dracozolt",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-pva"],
+      "model": "cobblemon:dracozolt_pva.geo",
+      "poser": "cobblemon:dracozolt_pva",
+      "texture": "cobblemon:textures/pokemon/0000_skins/pva/dracozolt_pva.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/pva/dracozolt_pva_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-pva", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/pva/dracozolt_pva_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/pva/dracozolt_pva_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

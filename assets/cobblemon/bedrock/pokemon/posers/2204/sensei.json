@@ -1,0 +1,55 @@
+{
+    "head": "head",
+    "portraitScale": 1.8,
+    "portraitTranslation": [ -0.2, 0.7, 0 ],
+    "profileScale": 0.6,
+    "profileTranslation": [ 0, 0.8, 0 ],
+    "animations": {
+      "faint": "q.bedrock_primary('sensei', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('sensei', 'cry')",
+      "physical": "q.bedrock_primary('sensei', 'physical', q.curve('symmetrical_wide'))",
+      "special": "q.bedrock_primary('sensei', 'physical', q.curve('symmetrical_wide'))"
+    },  
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('sensei', 'battle_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('sensei', 'blink')"
+        ]
+      },
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "look",
+          "bedrock(sensei, ground_idle)"
+        ],
+        "quirks": ["q.bedrock_quirk('sensei', 'blink')"]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ "bedrock(sensei, ground_walk)" ],
+        "quirks": ["q.bedrock_quirk('sensei', 'blink')"]
+      },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [
+          "SLEEP"
+        ],
+        "animations": [
+          "q.bedrock('sensei', 'sleep')"
+        ]
+      }
+    }
+  }
+  

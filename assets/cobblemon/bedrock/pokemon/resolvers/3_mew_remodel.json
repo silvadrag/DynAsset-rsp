@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:mew",
+  "order": 3,
+  "variations": [
+    { "aspects": [],
+	  "model": "cobblemon:mew2.geo",
+	  "poser": "cobblemon:mew2",
+      "texture": "cobblemon:textures/pokemon/mew/mew.png",
+	  		            "layers": [{
+                }]},{
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/mew/mew_shiny.png",
+			"layers": [{
+                }]}]
+}

@@ -1,0 +1,181 @@
+{
+  "animations": {
+    "animation.deoxys_defense_wildwest.ground_idle": {
+      "bones": {
+        "arm_left_bot": {
+          "rotation": [-7, 3, "70 - math.sin((q.anim_time - 0) * 360 / 4) * 3"]
+        },
+        "arm_left_bot2": {
+          "rotation": [
+            0,
+            0,
+            "-(math.sin((q.anim_time - 0.2) * 360 / 4) * 5 - 1)"
+          ]
+        },
+        "arm_left_bot3": {
+          "rotation": [
+            0,
+            0,
+            "-(math.sin((q.anim_time - 0.5) * 360 / 4) * 5 - 1)"
+          ]
+        },
+        "arm_left_bot4": {
+          "rotation": [
+            0,
+            0,
+            "-(math.sin((q.anim_time - 0.7) * 360 / 4) * 6 - 1)"
+          ]
+        },
+        "arm_left_top": {
+          "rotation": [
+            -7,
+            16,
+            "55 + math.cos((q.anim_time - 0.25) * 360 / 4) * 4"
+          ]
+        },
+        "arm_left_top2": {
+          "rotation": [0, 0, "math.cos((q.anim_time - 0.45) * 360 / 4) * 6 + 2"]
+        },
+        "arm_left_top3": {
+          "rotation": [0, 0, "math.cos((q.anim_time - 0.75) * 360 / 4) * 6 + 2"]
+        },
+        "arm_left_top4": {
+          "rotation": [0, 0, "math.cos((q.anim_time - 0.95) * 360 / 4) * 7 + 2"]
+        },
+        "arm_right_bot": {
+          "rotation": [
+            -7,
+            -3,
+            "-70 + math.sin((q.anim_time - 0.05) * 360 / 4) * 3"
+          ]
+        },
+        "arm_right_bot2": {
+          "rotation": [0, 0, "math.sin((q.anim_time - 0.25) * 360 / 4) * 5 - 1"]
+        },
+        "arm_right_bot3": {
+          "rotation": [0, 0, "math.sin((q.anim_time - 0.55) * 360 / 4) * 5 - 1"]
+        },
+        "arm_right_bot4": {
+          "rotation": [0, 0, "math.sin((q.anim_time - 0.75) * 360 / 4) * 6 - 1"]
+        },
+        "arm_right_top": {
+          "rotation": [
+            -7,
+            -16,
+            "-55 - math.cos((q.anim_time - 0.2) * 360 / 4) * 4"
+          ]
+        },
+        "arm_right_top2": {
+          "rotation": [0, 0, "-math.cos((q.anim_time - 0.4) * 360 / 4) * 6 - 2"]
+        },
+        "arm_right_top3": {
+          "rotation": [0, 0, "-math.cos((q.anim_time - 0.7) * 360 / 4) * 6 - 2"]
+        },
+        "arm_right_top4": {
+          "rotation": [0, 0, "-math.cos((q.anim_time - 0.9) * 360 / 4) * 7 - 2"]
+        },
+        "body": {
+          "position": [0, "4 + math.sin((q.anim_time - 0) * 360 / 4) * 1", 0],
+          "rotation": ["-math.sin((q.anim_time - 0.5) * 360 / 4) * 3 - 2", 0, 0]
+        },
+        "chest": {
+          "rotation": [
+            "5 - math.sin((q.anim_time - 0.6) * 360 / 4) * 1 - 1",
+            0,
+            0
+          ]
+        },
+        "foot_left": {
+          "rotation": [
+            0,
+            0,
+            "-(math.sin((q.anim_time - 0.9) * 360 / 4) * 3 - 3)"
+          ]
+        },
+        "foot_right": {
+          "rotation": [0, 0, "math.sin((q.anim_time - 1.1) * 360 / 4) * 3 - 3"]
+        },
+        "leg_left": {
+          "position": [0.25, -0.84375, -0.34375],
+          "rotation": [
+            "-1.08 - math.sin((q.anim_time - 0.6) * 360 / 4) * 3 - 2",
+            67.9431,
+            "2.4945 - math.sin((q.anim_time - 0.6) * 360 / 4) * 3 + 2"
+          ]
+        },
+        "leg_left_2": {
+          "rotation": [0, 0, "10 - math.sin((q.anim_time - 0.8) * 360 / 4) * 4"]
+        },
+        "leg_right": {
+          "position": [-0.25, -0.84375, -0.34375],
+          "rotation": [
+            "-36.8359 - math.sin((q.anim_time - 0.8) * 360 / 4) * 3 - 2",
+            -62.33253,
+            "31.1943 + math.sin((q.anim_time - 0.8) * 360 / 4) * 3 - 2"
+          ]
+        },
+        "leg_right_2": {
+          "rotation": [0, 0, "-10 + math.sin((q.anim_time - 1) * 360 / 4) * 4"]
+        },
+        "torso": { "rotation": [5, 0, 0] }
+      },
+      "loop": true
+    },
+    "animation.deoxys_defense_wildwest.ground_walk": {
+      "bones": {
+        "arm_left": { "rotation": [40, 0, 0] },
+        "arm_right": { "rotation": [40, 0, 0] },
+        "body": {
+          "position": [
+            0.46875,
+            "(math.sin((q.anim_time - 0) * 360 / 4) * 1)",
+            "math.sin((q.anim_time - 0) * 360 / 2) * 1"
+          ],
+          "rotation": [19.88301, -1.25028, -1.14542]
+        },
+        "chest": {
+          "rotation": ["-math.cos((q.anim_time - 0.1) * 360 / 4) * 4 - 4", 5, 0]
+        },
+        "leg_left": { "rotation": [-40, 20, -40] },
+        "leg_right": { "rotation": [-40, -20, 40] },
+        "torso": { "position": [0, 0, 0.65625], "rotation": [-17.5, 0, 0] }
+      },
+      "loop": true
+    },
+    "animation.deoxys_defense_wildwest.render": {
+      "bones": {
+        "arm_left": { "rotation": [0, 27.5, 47.5] },
+        "arm_left_bot": { "rotation": [0, 0, -2.5] },
+        "arm_left_bot2": { "rotation": [0, 15, 22.5] },
+        "arm_left_bot3": { "rotation": [0, 0, 22.5] },
+        "arm_left_bot4": { "rotation": [0, 0, 10] },
+        "arm_left_top": { "rotation": [0, 0, -7.5] },
+        "arm_left_top2": { "rotation": [5.85463, 13.83447, 23.21088] },
+        "arm_left_top3": { "rotation": [0, 0, 22.5] },
+        "arm_left_top4": { "rotation": [0, 0, 10] },
+        "arm_right": { "rotation": [0, -15, -47.5] },
+        "arm_right_bot": { "rotation": [0, 0, 2.5] },
+        "arm_right_bot2": { "rotation": [0, -15, -22.5] },
+        "arm_right_bot3": { "rotation": [0, 0, -22.5] },
+        "arm_right_bot4": { "rotation": [0, 0, -10] },
+        "arm_right_top": { "rotation": [0, 0, 7.5] },
+        "arm_right_top2": { "rotation": [5.85463, -13.83447, -23.21088] },
+        "arm_right_top3": { "rotation": [0, 0, -22.5] },
+        "arm_right_top4": { "rotation": [0, 0, -10] },
+        "chest": { "position": [0, 0, 0], "rotation": [22.5193, 0, 0] },
+        "deoxys_defense": { "position": [0, -3, 0] },
+        "leg_left": { "rotation": [-70.0119, 51.57508, -66.60142] },
+        "leg_left_2": { "rotation": [0, 0, 42.5] },
+        "leg_right": { "rotation": [-43.01996, -73.10792, 36.78874] },
+        "leg_right_2": { "rotation": [0, 0, -25] },
+        "torso": { "rotation": [5, 0, 0] }
+      },
+      "loop": true
+    },
+    "animation.deoxys_defense_wildwest.walk_test": {
+      "bones": { "body": { "position": [0, 0, "-q.anim_time*90*walk"] } },
+      "loop": true
+    }
+  },
+  "format_version": "1.8.0"
+}

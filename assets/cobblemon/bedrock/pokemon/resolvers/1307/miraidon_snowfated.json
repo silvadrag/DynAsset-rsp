@@ -1,0 +1,33 @@
+{
+  "order": 98,
+  "species": "cobblemon:miraidon",
+  "variations": [
+    {
+      "aspects": ["skin-snowfated"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": {
+            "fps": 4,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/snowfated/miraidon_snowfated_1.png",
+              "cobblemon:textures/pokemon/0000_skins/snowfated/miraidon_snowfated_2.png",
+              "cobblemon:textures/pokemon/0000_skins/snowfated/miraidon_snowfated_3.png",
+              "cobblemon:textures/pokemon/0000_skins/snowfated/miraidon_snowfated_4.png"
+            ],
+            "loop": true
+          }
+        }
+      ],
+      "model": "cobblemon:miraidon_snowfated.geo",
+      "poser": "cobblemon:miraidon_snowfated",
+      "texture": "cobblemon:textures/pokemon/0000_skins/snowfated/miraidon_snowfated.png"
+    },
+    {
+      "aspects": ["skin-snowfated", "shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/snowfated/miraidon_snowfated_shiny.png"
+    }
+  ]
+}

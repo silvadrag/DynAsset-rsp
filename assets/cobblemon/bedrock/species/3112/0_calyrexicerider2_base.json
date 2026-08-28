@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:calyrexicerider2",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:calyrexice2025halloween",
+      "model": "cobblemon:calyrexice2025halloween.geo",
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_ice_halloween2025.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/calyrex2025halloween/calyrex_ice_shiny_halloween2025.png"
+    }
+  ]
+}

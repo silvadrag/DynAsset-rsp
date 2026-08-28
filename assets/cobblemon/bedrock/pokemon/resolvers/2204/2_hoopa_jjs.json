@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:hoopa",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["jjs"],
+      "poser": "cobblemon:hoopa3",
+      "model": "cobblemon:hoopa3.geo",
+      "texture": "cobblemon:textures/pokemon/hoopa3/hoopa3.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hoopa3/hoopa3_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny","jjs"],
+      "texture": "cobblemon:textures/pokemon/hoopa3/hoopa3_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hoopa3/hoopa3_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

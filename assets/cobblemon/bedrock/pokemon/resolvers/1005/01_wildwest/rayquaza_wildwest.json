@@ -1,0 +1,88 @@
+{
+  "order": 98,
+  "species": "cobblemon:rayquaza",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "flame2",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:rayquaza_wildwest.geo",
+      "poser": "cobblemon:rayquaza_wildwest",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "flame2",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/rayquaza/rayquaza_wildwest_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "animations": {
+    "animation.spring2026_particles.autumn": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": [
+          { "effect": "cobblemon:spring2026_autumn_wind", "locator": "root" },
+          { "effect": "cobblemon:spring2026_autumn_field", "locator": "root" }
+        ]
+      }
+    },
+    "animation.spring2026_particles.proton": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": [
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "left_glitch"
+          },
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "right_glitch"
+          },
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "glitch"
+          },
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "glitch2"
+          },
+          {
+            "effect": "cobblemon:spring2026_cherry_petals",
+            "locator": "antlers"
+          }
+        ]
+      }
+    },
+    "animation.spring2026_particles.proton_shiny": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": [
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "left_glitch"
+          },
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "right_glitch"
+          },
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "glitch"
+          },
+          {
+            "effect": "cobblemon:spring2026_proton_glitch",
+            "locator": "glitch2"
+          },
+          {
+            "effect": "cobblemon:spring2026_cherry_petals_shiny",
+            "locator": "antlers"
+          }
+        ]
+      }
+    },
+    "animation.spring2026_particles.spring": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": [
+          { "effect": "cobblemon:spring2026_spring_wind", "locator": "root" },
+          { "effect": "cobblemon:spring2026_spring_field", "locator": "root" }
+        ]
+      }
+    },
+    "animation.spring2026_particles.summer": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": [
+          { "effect": "cobblemon:spring2026_summer_wind", "locator": "root" },
+          { "effect": "cobblemon:spring2026_summer_field", "locator": "root" }
+        ]
+      }
+    },
+    "animation.spring2026_particles.winter": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": [
+          { "effect": "cobblemon:spring2026_winter_wind", "locator": "root" },
+          { "effect": "cobblemon:spring2026_winter_field", "locator": "root" }
+        ]
+      }
+    }
+  },
+  "format_version": "1.8.0"
+}

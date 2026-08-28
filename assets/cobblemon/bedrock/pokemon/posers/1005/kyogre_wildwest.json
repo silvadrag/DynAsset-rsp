@@ -1,0 +1,48 @@
+{
+  "animations": { "cry": "q.bedrock_stateful('kyogre_wildwest', 'cry')" },
+  "portraitScale": 0.33,
+  "portraitTranslation": [-0.13, 0.94, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('kyogre_wildwest', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": []
+    },
+    "battle-swimming": {
+      "animations": ["q.bedrock('kyogre_wildwest', 'battle_idle')"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('kyogre_wildwest', 'water_cry')"
+      },
+      "poseTypes": ["FLOAT"],
+      "quirks": []
+    },
+    "float": {
+      "animations": ["q.bedrock('kyogre_wildwest', 'water_idle')"],
+      "isBattle": false,
+      "poseTypes": ["FLOAT"],
+      "quirks": []
+    },
+    "standing": {
+      "animations": ["q.bedrock('kyogre_wildwest', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": []
+    },
+    "swim": {
+      "animations": ["q.bedrock('kyogre_wildwest', 'water_swim')"],
+      "poseTypes": ["SWIM"],
+      "quirks": []
+    },
+    "walking": {
+      "animations": ["q.bedrock('kyogre_wildwest', 'ground_idle')"],
+      "poseTypes": ["WALK"],
+      "quirks": []
+    }
+  },
+  "profileScale": 0.2,
+  "profileTranslation": [0, 1.0, 0],
+  "rootBone": "kyogre2"
+}

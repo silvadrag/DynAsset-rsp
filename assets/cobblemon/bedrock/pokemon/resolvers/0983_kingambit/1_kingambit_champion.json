@@ -1,0 +1,15 @@
+{
+	"species": "cobblemon:kingambit",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["champion"],
+			"poser": "cobblemon:kingambit_champion",
+			"model": "cobblemon:kingambit_champion.geo",
+			"texture": "cobblemon:textures/pokemon/0983_kingambit/kingambit_champion.png",
+			"layers": [
+				
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"parent":"ci:item/tools/cobalion_crimsonmightshiny_bow_0","overrides":[{"predicate":{"pulling":1},"model":"ci:item/tools/cobalion_crimsonmightshiny_bow_1"},{"predicate":{"pulling":1,"pull":0.65},"model":"ci:item/tools/cobalion_crimsonmightshiny_bow_2"},{"predicate":{"pulling":1,"pull":0.9},"model":"ci:item/tools/cobalion_crimsonmightshiny_bow_3"}]}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:calyrexicerider1",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:calyrex_icemax",
+      "model": "cobblemon:calyrex_icemax.geo",
+      "texture": "cobblemon:textures/pokemon/calyrex_icemax/calyrex_icemax.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/calyrex_icemax/calyrex_icemax_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

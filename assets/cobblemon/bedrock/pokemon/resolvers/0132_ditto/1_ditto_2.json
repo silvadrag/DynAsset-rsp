@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:ditto",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "2"
+      ],
+      "poser": "cobblemon:ditto_2",
+      "model": "cobblemon:ditto_2.geo",
+      "texture": "cobblemon:textures/pokemon/0132_ditto/ditto_2.png",
+      "layers": []
+    },
+    {
+      "aspects": ["2","shiny"],
+      "model": "cobblemon:ditto_2.geo",
+      "poser": "cobblemon:ditto_2",
+      "texture": "cobblemon:textures/pokemon/0132_ditto/ditto_2_shiny.png",
+      "layers": []
+    }
+  ]
+}

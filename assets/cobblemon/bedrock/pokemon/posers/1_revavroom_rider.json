@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:revavroom",
+    "order": 1,
+    "variations": [
+		{
+			"aspects": [ "rider" ],
+			"poser": "cobblemon:revavroom",
+			"model": "cobblemon:revavroom_rider.geo",
+			"texture": "cobblemon:textures/pokemon/0966_revavroom/revavroom_rider.png",
+			"layers": [
+				{
+				"name": "emissive",
+				"texture": "cobblemon:textures/pokemon/0966_revavroom/revavroom_rider_emissive.png",
+				"emissive": "true",
+				"translucent": true
+				}  
+			]
+		}
+    ]
+  }

@@ -1,0 +1,42 @@
+{
+  "order": 100,
+  "species": "cobblemon:ogerpon",
+  "variations": [
+    {
+      "aspects": ["skin-spring2026", "cornerstone-mask"],
+      "layers": [],
+      "model": "cobblemon:ogerpon_spring2026_cornerstone.geo",
+      "poser": "cobblemon:ogerpon_spring2026_cornerstone",
+      "texture": "cobblemon:textures/pokemon/0000_skins/spring2026/ogerpon_cornerstone_spring2026.png"
+    },
+    {
+      "aspects": ["shiny", "skin-spring2026", "cornerstone-mask"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/spring2026/ogerpon_cornerstone_spring2026_shiny.png"
+    },
+    {
+      "aspects": ["skin-spring2026", "hearthflame-mask"],
+      "layers": [],
+      "model": "cobblemon:ogerpon_spring2026_hearthflame.geo",
+      "poser": "cobblemon:ogerpon_spring2026_hearthflame",
+      "texture": "cobblemon:textures/pokemon/0000_skins/spring2026/ogerpon_hearthflame_spring2026.png"
+    },
+    {
+      "aspects": ["shiny", "skin-spring2026", "hearthflame-mask"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/spring2026/ogerpon_hearthflame_spring2026_shiny.png"
+    },
+    {
+      "aspects": ["skin-spring2026", "wellspring-mask"],
+      "layers": [],
+      "model": "cobblemon:ogerpon_spring2026_wellspring.geo",
+      "poser": "cobblemon:ogerpon_spring2026_wellspring",
+      "texture": "cobblemon:textures/pokemon/0000_skins/spring2026/ogerpon_wellspring_spring2026.png"
+    },
+    {
+      "aspects": ["shiny", "skin-spring2026", "wellspring-mask"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/spring2026/ogerpon_wellspring_spring2026_shiny.png"
+    }
+  ]
+}

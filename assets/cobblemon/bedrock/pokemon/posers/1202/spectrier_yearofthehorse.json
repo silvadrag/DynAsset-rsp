@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [-1.0, 1.92, 0],
+  "profileScale": 0.45,
+  "profileTranslation": [0, 1.0, 0],
+  "animations": { "cry": "q.bedrock_stateful('spectrier_yearofthehorse', 'cry')" },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.bedrock('spectrier_yearofthehorse', 'battle_idle')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('spectrier_yearofthehorse', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('spectrier_yearofthehorse', 'ground_walk')"]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('spectrier_yearofthehorse', 'sleep')"]
+    }
+  }
+}

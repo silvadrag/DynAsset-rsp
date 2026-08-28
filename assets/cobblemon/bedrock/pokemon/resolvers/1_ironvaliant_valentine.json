@@ -1,0 +1,35 @@
+{
+	"species": "cobblemon:ironvaliant",
+	"order": 1,
+	"variations": [
+		{
+			"aspects": ["valentine"],
+			"poser": "cobblemon:ironvaliant_valentine",
+			"model": "cobblemon:ironvaliant_valentine.geo",
+			"texture": "cobblemon:textures/pokemon/valentine/ironvaliant_valentine.png",
+			"layers": [
+				{
+				  "name": "emissive",
+				  "texture": "cobblemon:textures/pokemon/valentine/ironvaliant_valentine_emissive.png",
+				  "emissive": true,
+				  "translucent": true
+				}
+			  ]
+		},
+		{
+			"aspects": [ 
+				"shiny",
+				"valentine" 
+			],
+			"texture": "cobblemon:textures/pokemon/valentine/ironvaliant_valentine_shiny.png",
+			"layers": [
+				{
+				  "name": "emissive",
+				  "texture": "cobblemon:textures/pokemon/valentine/ironvaliant_valentine_emissive.png",
+				  "emissive": true,
+				  "translucent": true
+				}
+			  ]
+		}
+	]
+}

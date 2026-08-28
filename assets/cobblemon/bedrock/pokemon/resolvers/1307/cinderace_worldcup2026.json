@@ -1,0 +1,21 @@
+{
+  "order": 98,
+  "species": "cobblemon:cinderace",
+  "variations": [
+    {
+      "aspects": ["skin-bundle-worldcup2026"],
+      "layers": [],
+      "model": "cobblemon:cinderace_worldcup2026.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/bundles/07-2026/cinderace_brazil.png"
+    },
+    {
+      "aspects": ["skin-bundle-worldcup2026", "shiny"],
+      "layers": [
+        {
+          "name": "shiny",
+          "texture": "cobblemon:textures/pokemon/0000_skins/bundles/07-2026/cinderace_worldcup2026_shiny_overlay.png"
+        }
+      ]
+    }
+  ]
+}

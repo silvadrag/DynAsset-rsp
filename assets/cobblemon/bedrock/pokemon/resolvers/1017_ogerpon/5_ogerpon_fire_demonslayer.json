@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "demonslayer"
+      ],
+      "poser": "cobblemon:ogerponfire1",
+      "model": "cobblemon:ogerpon_fire_demonslayer.geo",
+      "texture": "cobblemon:textures/pokemon/ogerponfire1/ogerponfire1.png",
+      "layers": []
+    }
+  ]
+}

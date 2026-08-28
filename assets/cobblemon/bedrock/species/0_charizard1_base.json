@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:charizard1",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:charizard1",
+      "model": "cobblemon:charizard1.geo",
+      "texture": "cobblemon:textures/pokemon/charizardneo/charizardneo.png",
+      "layers": [
+        {
+					"name": "emissive",
+          "emissive": true,
+					"texture": "cobblemon:textures/pokemon/charizardneo/charizardneo_emissive.png",
+          "translucent": true
+				  }
+      ]
+    }
+  ]
+}

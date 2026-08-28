@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:xerneas1",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:xerneas1",
+      "model": "cobblemon:xerneas1.geo",
+      "texture": "cobblemon:textures/pokemon/xerneas1/xerneas1.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/xerneas1/xerneas1_umbala.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "poser": "cobblemon:xerneas1",
+      "model": "cobblemon:xerneas1.geo",
+      "texture": "cobblemon:textures/pokemon/xerneas1/xerneas1_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/xerneas1/xerneas1_shiny_umbala.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

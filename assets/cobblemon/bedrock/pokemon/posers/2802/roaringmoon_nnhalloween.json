@@ -1,0 +1,63 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [-1.05, 0.43, 0],
+  "profileScale": 0.26,
+  "profileTranslation": [-1.04, 0.2, 0],
+  "rootBone": "roaringmoon_nnhalloween",
+  "animations": { "cry": "q.bedrock_stateful('roaringmoon_nnhalloween', 'cry')" },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "HOVER", "FLY", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('roaringmoon_nnhalloween', 'battle_idle')",
+        "q.bedrock('roaringmoon_nnhalloween', 'overlay')"
+      ],
+      "quirks": ["q.bedrock_quirk('roaringmoon', 'blink')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('roaringmoon_nnhalloween', 'battle_cry', q.curve('symmetrical_wide'))"
+      }
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('roaringmoon_nnhalloween', 'ground_idle')",
+        "q.bedrock('roaringmoon_nnhalloween', 'overlay')"
+      ],
+      "quirks": ["q.bedrock_quirk('roaringmoon_nnhalloween', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('roaringmoon_nnhalloween', 'ground_walk')",
+        "q.bedrock('roaringmoon_nnhalloween', 'overlay')"
+      ],
+      "quirks": ["q.bedrock_quirk('roaringmoon_nnhalloween', 'blink')"]
+    },
+    "hovering": {
+      "poseTypes": ["HOVER", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('roaringmoon_nnhalloween', 'air_idle')",
+        "q.bedrock('roaringmoon_nnhalloween', 'overlay')"
+      ],
+      "quirks": ["q.bedrock_quirk('roaringmoon_nnhalloween', 'blink')"]
+    },
+    "flying": {
+      "poseTypes": ["FLY"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('roaringmoon_nnhalloween', 'air_fly')",
+        "q.bedrock('roaringmoon_nnhalloween', 'overlay')"
+      ],
+      "quirks": ["q.bedrock_quirk('roaringmoon_nnhalloween', 'blink')"]
+    }
+  }
+}

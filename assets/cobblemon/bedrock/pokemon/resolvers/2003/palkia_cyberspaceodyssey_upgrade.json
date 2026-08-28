@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:palkia",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-cyberspaceodyssey-upgrade"],
+      "model": "cobblemon:palkia_cyberspaceodyssey_upgrade.geo",
+      "poser": "cobblemon:palkia_cyberspaceodyssey_upgrade",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/palkia_cyberspaceodyssey.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/palkia_cyberspaceodyssey_emissive.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/palkia_cyberspaceodyssey_translucent.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "skin-cyberspaceodyssey-upgrade"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/palkia_cyberspaceodyssey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/cyberspaceodyssey/palkia_cyberspaceodyssey_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

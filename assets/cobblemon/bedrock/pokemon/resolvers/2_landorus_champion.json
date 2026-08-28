@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:landorus",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["champion"],
+      "poser": "cobblemon:landorus_champion",
+      "model": "cobblemon:landorus_champion.geo",
+      "texture": "cobblemon:textures/pokemon/landorus_champion/landorus_champion.png",
+      "layers": []
+    }
+  ]
+}

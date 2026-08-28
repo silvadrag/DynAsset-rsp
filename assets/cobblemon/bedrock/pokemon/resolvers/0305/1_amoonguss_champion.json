@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:amoonguss",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["champion"],
+      "poser": "cobblemon:amoonguss",
+      "model": "cobblemon:amoonguss_champion.geo",
+      "texture": "cobblemon:textures/pokemon/amoonguss_champion/amoonguss_champion.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/amoonguss_champion/amoonguss_champion_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

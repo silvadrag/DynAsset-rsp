@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:decidueye",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": [
+        "skin-cartooncrate"
+      ],
+      "poser": "cobblemon:decidueye_cartooncrate",
+      "model": "cobblemon:decidueye_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/decidueye1/decidueye1.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin-cartooncrate"
+      ],
+      "texture": "cobblemon:textures/pokemon/decidueye1/decidueye1_shiny.png",
+      "layers": []
+    }
+  ]
+}

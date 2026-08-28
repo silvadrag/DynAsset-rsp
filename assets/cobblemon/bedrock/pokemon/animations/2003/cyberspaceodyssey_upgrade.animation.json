@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cyberspaceodyssey_upgrade.dialga": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": { "effect": "cobblemon:void_dialga", "locator": "middle" }
+      }
+    },
+    "animation.cyberspaceodyssey_upgrade.dialga2": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": {
+          "effect": "cobblemon:void_dialga_blackhole",
+          "locator": "blackhole"
+        }
+      }
+    },
+    "animation.cyberspaceodyssey_upgrade.giratina": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": { "effect": "cobblemon:void_giratina", "locator": "middle" }
+      }
+    },
+    "animation.cyberspaceodyssey_upgrade.giratina2": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": { "effect": "cobblemon:void_giratina_orbs", "locator": "root" }
+      }
+    },
+    "animation.cyberspaceodyssey_upgrade.palkia": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": { "effect": "cobblemon:radiant_palkia", "locator": "middle" }
+      }
+    },
+    "animation.cyberspaceodyssey_upgrade.palkia2": {
+      "loop": true,
+      "particle_effects": {
+        "0.0": { "effect": "cobblemon:radiant_palkia_orbs", "locator": "root" }
+      }
+    }
+  }
+}

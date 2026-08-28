@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:urshifu",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["jojo"],
+      "poser": "cobblemon:urshifu7",
+      "model": "cobblemon:urshifu7.geo",
+      "texture": "cobblemon:textures/pokemon/urshifu7/urshifu7.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","jojo"],
+      "model": "cobblemon:urshifu7.geo",
+      "poser": "cobblemon:urshifu7",
+      "texture": "cobblemon:textures/pokemon/urshifu7/urshifu7_shiny.png",
+      "layers": []
+    }
+  ]
+}

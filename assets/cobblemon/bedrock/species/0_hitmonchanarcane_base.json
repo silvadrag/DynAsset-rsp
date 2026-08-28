@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:hitmonchanarcane",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hitmonchanarcane",
+      "model": "cobblemon:hitmonchanarcane.geo",
+      "texture": "cobblemon:textures/pokemon/hitmonchanarcane/hitmonchan_arcane.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "model": "cobblemon:hitmonchanarcane.geo",
+      "poser": "cobblemon:hitmonchanarcane",
+      "texture": "cobblemon:textures/pokemon/hitmonchanarcane/hitmonchan_arcane_shiny.png",
+      "layers": []
+    }
+  ]
+}

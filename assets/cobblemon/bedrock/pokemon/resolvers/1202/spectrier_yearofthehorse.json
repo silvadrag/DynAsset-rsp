@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:spectrier",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": ["skin-yearofthehorse"],
+      "model": "cobblemon:spectrier_yearofthehorse.geo",
+      "poser": "cobblemon:spectrier_yearofthehorse",
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/spectrier_yearofthehorse.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/spectrier_yearofthehorse_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-yearofthehorse", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/spectrier_yearofthehorse_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/yearofthehorse/spectrier_yearofthehorse_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

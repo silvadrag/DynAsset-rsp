@@ -1,0 +1,28 @@
+{
+  "head": "head",
+  "portraitScale": 1.74,
+  "portraitTranslation": [-0.15, 0.15, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(banette_mega_wildwest, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        { "animations": ["bedrock(banette_mega_wildwest, blink)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(banette_mega_wildwest, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        { "animations": ["bedrock(banette_mega_wildwest, blink)"], "name": "blink" }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.47, 0],
+  "rootBone": "banette"
+}

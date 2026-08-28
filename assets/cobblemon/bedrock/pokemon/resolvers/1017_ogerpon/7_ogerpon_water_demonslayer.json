@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": [
+        "wellspring-mask",
+        "demonslayer"
+      ],
+      "poser": "cobblemon:ogerponwater1",
+      "model": "cobblemon:ogerpon_water_demonslayer.geo",
+      "texture": "cobblemon:textures/pokemon/ogerponwater1/ogerponwater1.png",
+      "layers": []
+    }
+  ]
+}

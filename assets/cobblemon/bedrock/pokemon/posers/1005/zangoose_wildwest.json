@@ -1,0 +1,45 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('zangoose_wildwest', 'cry')",
+    "physical": "q.bedrock_primary('zangoose_wildwest', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('zangoose_wildwest', 'recoil')",
+    "special": "q.bedrock_primary('zangoose_wildwest', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('zangoose_wildwest', 'special', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1.75,
+  "portraitTranslation": [0, 0.6, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["q.look('head')", "q.bedrock('zangoose_wildwest', 'battle_idle')"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('zangoose_wildwest', 'blink')"]
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('zangoose_wildwest', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('zangoose_wildwest', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('zangoose_wildwest', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('zangoose_wildwest', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('zangoose_wildwest', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.6, 0],
+  "rootBone": "zangoose"
+}

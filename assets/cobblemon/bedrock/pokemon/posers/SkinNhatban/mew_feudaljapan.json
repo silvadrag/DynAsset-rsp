@@ -1,0 +1,73 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('mew_feudaljapan', 'cry')",
+    "faint": "q.bedrock_primary('mew_feudaljapan', 'sleep', q.curve('one'))",
+    "physical": "q.bedrock_primary('mew_feudaljapan', 'status', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('mew_feudaljapan', 'recoil')",
+    "special": "q.bedrock_primary('mew_feudaljapan', 'status', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('mew_feudaljapan', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2.17,
+  "portraitTranslation": [-0.23, 0.58, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mew_feudaljapan', 'battle_idle')",
+        "q.bedrock('mew_feudaljapan', 'overlay')",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": true,
+      "namedAnimations": { "cry": "q.bedrock_primary('mew_feudaljapan', 'battle_cry')" },
+      "poseTypes": ["STAND", "HOVER", "FLOAT"],
+      "quirks": [
+        "q.bedrock_quirk('mew_feudaljapan', 'blink')",
+        "q.bedrock_quirk('mew_feudaljapan', 'quirk')"
+      ]
+    },
+    "sleeping": {
+      "animations": [
+        "bedrock(mew_feudaljapan, sleep)",
+        "q.bedrock('mew_feudaljapan', 'overlay')",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "quirks": [],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mew_feudaljapan', 'ground_idle')",
+        "q.bedrock('mew_feudaljapan', 'overlay')",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER", "FLOAT"],
+      "quirks": [
+        "q.bedrock_quirk('mew_feudaljapan', 'blink')",
+        "q.bedrock_quirk('mew_feudaljapan', 'quirk')"
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mew_feudaljapan', 'ground_walk')",
+        "q.bedrock('mew_feudaljapan', 'overlay')",
+        "q.bedrock('feudaljapan', 'aura')"
+      ],
+      "poseName": "walking",
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "quirks": [
+        "q.bedrock_quirk('mew_feudaljapan', 'blink')",
+        "q.bedrock_quirk('mew_feudaljapan', 'quirk')"
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0.04, 0.84, 0]
+}

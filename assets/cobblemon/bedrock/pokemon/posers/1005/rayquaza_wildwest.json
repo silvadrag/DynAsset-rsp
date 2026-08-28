@@ -1,0 +1,36 @@
+{
+  "animations": {},
+  "portraitScale": 1.0,
+  "portraitTranslation": [-1.0, 4.3, 0],
+  "poses": {
+    "flying": {
+      "animations": ["q.look('head_ai')", "q.bedrock('rayquaza_wildwest', 'air_fly')"],
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('rayquaza_wildwest', 'blink')"]
+    },
+    "hover": {
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('rayquaza_wildwest', 'ground_idle')"
+      ],
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('rayquaza_wildwest', 'blink')"]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('rayquaza_wildwest', 'ground_idle')"
+      ],
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('rayquaza_wildwest', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head_ai')", "q.bedrock('rayquaza_wildwest', 'air_fly')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('rayquaza_wildwest', 'blink')"]
+    }
+  },
+  "profileScale": 0.25,
+  "profileTranslation": [0, 1.5, -10],
+  "rootBone": "rayquaza"
+}

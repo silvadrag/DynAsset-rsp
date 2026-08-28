@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:calyrex",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["thanhgiong"],
+      "poser": "cobblemon:calyrex_thanhgiong",
+      "model": "cobblemon:calyrex_thanhgiong.geo",
+      "texture": "cobblemon:textures/pokemon/0898_calyrex/calyrex_thanhgiong.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0898_calyrex/calyrex_thanhgiong_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

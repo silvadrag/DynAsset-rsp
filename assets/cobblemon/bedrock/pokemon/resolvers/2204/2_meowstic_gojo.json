@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:meowstic",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["gojo"],
+      "poser": "cobblemon:sensei",
+      "model": "cobblemon:sensei.geo",
+      "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["gojo","shiny"],
+      "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/sensei/meowstic_gojo_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

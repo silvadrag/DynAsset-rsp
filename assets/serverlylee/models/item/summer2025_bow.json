@@ -1,0 +1,1 @@
+{"parent":"ci:item/tools/summer2025_bow","overrides":[{"predicate":{"pulling":1},"model":"ci:item/tools/summer2025_bow_0"},{"predicate":{"pulling":1,"pull":0.65},"model":"ci:item/tools/summer2025_bow_1"},{"predicate":{"pulling":1,"pull":0.9},"model":"ci:item/tools/summer2025_bow_2"}]}

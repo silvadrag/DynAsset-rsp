@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/template_skull","overrides":[{"model":"spectra_trade_ui:spectra_trade_ui/head_small","predicate":{"custom_model_data":100001}}]}

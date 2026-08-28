@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:kyogre",
+	"order": 5,
+	"variations": [
+		{
+			"aspects": ["niang"],
+			"poser": "cobblemon:kyogreniang",
+			"model": "cobblemon:kyogreniang.geo",
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniang.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniang_emissive.png",
+					"translucent": true
+			  }	
+			]
+		},
+		{
+			"aspects": ["niang", "shiny" ],
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniang_shiny.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0382_kyogreniang/kyogreniang_emissive_shiny.png",
+					"translucent": true
+			  }	
+			]
+		}
+	]
+}

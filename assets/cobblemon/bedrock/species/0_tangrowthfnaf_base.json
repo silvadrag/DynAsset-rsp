@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:tangrowthfnaf",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:tangrowthfnaf.geo",
+      "poser": "cobblemon:tangrowthfnaf",
+      "texture": "cobblemon:textures/pokemon/0000_skins/bundles/10-2025/tangrowth_fnaf.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/bundles/10-2025/tangrowth_fnaf_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "model": "cobblemon:tangrowthfnaf.geo",
+      "poser": "cobblemon:tangrowthfnaf",
+      "texture": "cobblemon:textures/pokemon/0000_skins/bundles/10-2025/tangrowth_fnaf_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/bundles/10-2025/tangrowth_fnaf_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

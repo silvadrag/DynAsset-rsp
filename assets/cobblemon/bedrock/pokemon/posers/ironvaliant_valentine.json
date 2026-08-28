@@ -1,0 +1,46 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [ -0.1, 2.6, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [0.01, 0.89, 0 ],
+  "animations": {
+    "cry": "q.bedrock_stateful('ironvaliant_valentine', 'cry')",
+    "faint": "q.bedrock_primary('ironvaliant_valentine', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('ironvaliant_valentine', 'recoil')",
+    "physical": "q.bedrock_primary('ironvaliant_valentine', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('ironvaliant_valentine', 'status', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('ironvaliant_valentine', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironvaliant_valentine', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironvaliant_valentine', 'ground_idle')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('ironvaliant_valentine', 'xxx')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ironvaliant_valentine', 'sleep')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ironvaliant_valentine', 'ground_walk')"
+      ]
+    }
+  }
+}

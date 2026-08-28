@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 6,
+  "variations": [
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "demonslayer"
+      ],
+      "poser": "cobblemon:ogerponrock1",
+      "model": "cobblemon:ogerpon_rock_demonslayer.geo",
+      "texture": "cobblemon:textures/pokemon/ogerponrock1/ogerponrock1.png",
+      "layers": []
+    }
+  ]
+}

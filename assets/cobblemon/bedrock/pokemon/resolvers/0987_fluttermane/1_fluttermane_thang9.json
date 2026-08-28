@@ -1,0 +1,28 @@
+{
+    "species": "cobblemon:fluttermane",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": ["thang9"],
+            "poser": "cobblemon:fluttermane_thang9",
+            "model": "cobblemon:fluttermane_thang9.geo",
+            "texture": "cobblemon:textures/pokemon/fluttermanethang9/fluttermane_thang9.png",
+            "layers": [
+                {
+                "name": "emissive",
+                "texture": {
+                    "frames": [
+                    "cobblemon:textures/pokemon/fluttermanethang9/fluttermane1.png",
+                    "cobblemon:textures/pokemon/fluttermanethang9/fluttermane2.png",
+                    "cobblemon:textures/pokemon/fluttermanethang9/fluttermane3.png",
+                    "cobblemon:textures/pokemon/fluttermanethang9/fluttermane4.png"
+                    ],
+                    "fps": 10,
+                    "loop": true
+                },
+                "emissive": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.2, 2.2, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.83, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('lucario_animeallstars', 'cry')",
+    "recoil": "q.bedrock_stateful('lucario_animeallstars', 'cry')",
+    "physical": "q.bedrock_stateful('lucario_animeallstars', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_stateful('lucario_animeallstars', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('lucario_animeallstars', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lucario_animeallstars', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lucario_animeallstars', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lucario_animeallstars', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lucario_animeallstars', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lucario_animeallstars', 'ground_walk')",
+        "q.bedrock('lucario_animeallstars', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lucario_animeallstars', 'blink')"]
+    }
+  }
+}

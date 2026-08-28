@@ -1,0 +1,19 @@
+{
+  "order": 98,
+  "species": "cobblemon:swampert",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest"],
+      "poser": "cobblemon:swampert",
+      "layers": [],
+      "model": "cobblemon:swampert_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/swampert_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny"],
+      "poser": "cobblemon:swampert",
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/swampert_wildwest_shiny.png"
+    }
+  ]
+}

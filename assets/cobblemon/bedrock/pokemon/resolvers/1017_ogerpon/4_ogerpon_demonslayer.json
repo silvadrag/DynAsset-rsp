@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["demonslayer"],
+      "poser": "cobblemon:ogerponteal1",
+      "model": "cobblemon:ogerpon_teal_demonslayer.geo",
+      "texture": "cobblemon:textures/pokemon/ogerponteal1/ogerponteal1.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "demonslayer",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ogerponteal1/ogerponteal1_shiny.png"
+    }
+  ]
+}

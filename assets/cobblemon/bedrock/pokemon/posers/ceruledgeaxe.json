@@ -1,0 +1,43 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [0.0, 2, 0.0],
+  "profileScale": 0.53,
+  "profileTranslation": [0.0, 1, 0.0],
+  "rootBone": "ceruledgeaxe",
+  "animations": {
+      "faint": "q.bedrock_primary('ceruledgeaxe', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('ceruledgeaxe', 'cry')",
+	"physical": "q.bedrock_primary('ceruledgeaxe', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('ceruledgeaxe', 'battle_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('ceruledgeaxe', 'blink')"
+		]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('ceruledgeaxe', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('ceruledgeaxe', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('ceruledgeaxe', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('ceruledgeaxe', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ceruledgeaxe', 'sleep')"]
+    }
+  }
+}

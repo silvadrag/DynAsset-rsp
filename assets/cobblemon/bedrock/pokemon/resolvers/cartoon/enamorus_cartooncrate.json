@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:enamorus",
+  "order": 98,
+  "variations": [
+    {
+      "aspects": [
+        "skin-cartooncrate"
+      ],
+      "poser": "cobblemon:enamorus_cartooncrate",
+      "model": "cobblemon:enamorus_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/enamorus1/enamorus1.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin-cartooncrate"
+      ],
+      "texture": "cobblemon:textures/pokemon/enamorus1/enamorus1_shiny.png",
+      "layers": []
+    }
+  ]
+}

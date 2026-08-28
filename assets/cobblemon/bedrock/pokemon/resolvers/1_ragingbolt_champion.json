@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:ragingbolt",
+ "order": 1,
+ "variations": [
+   {
+     "aspects": ["champion"],
+     "poser": "cobblemon:ragingbolt_champion",
+     "model": "cobblemon:ragingbolt_champion.geo",
+     "texture": "cobblemon:textures/pokemon/1021_ragingbolt/ragingbolt_champion.png",
+     "layers": [
+      {
+        "name": "emissive",
+        "texture": "cobblemon:textures/pokemon/1021_ragingbolt/ragingbolt_champion_emissive.png",
+        "emissive": "true"
+      }
+     ]
+   }
+ ]
+}

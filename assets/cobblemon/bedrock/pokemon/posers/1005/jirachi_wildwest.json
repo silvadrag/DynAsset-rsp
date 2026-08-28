@@ -1,0 +1,38 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('jirachi_wildwest', 'cry')",
+    "faint": "q.bedrock_primary('jirachi_wildwest', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('jirachi_wildwest', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('jirachi_wildwest', 'recoil')",
+    "special": "q.bedrock_primary('jirachi_wildwest', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('jirachi_wildwest', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.25,
+  "portraitTranslation": [0, 0.5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('jirachi_wildwest', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('jirachi_wildwest', 'blink')"]
+    },
+    "flying": {
+      "animations": ["q.look('head')", "q.bedrock('jirachi_wildwest', 'air_fly')"],
+      "poseTypes": ["FLY", "HOVER", "WALK"],
+      "quirks": ["q.bedrock_quirk('jirachi_wildwest', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('jirachi_wildwest', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('jirachi_wildwest', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('jirachi_wildwest', 'blink')"]
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.4, 0],
+  "rootBone": "jirachi"
+}

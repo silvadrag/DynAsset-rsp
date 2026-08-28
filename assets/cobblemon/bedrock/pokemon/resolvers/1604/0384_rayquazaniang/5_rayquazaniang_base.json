@@ -1,0 +1,32 @@
+{
+	"species": "cobblemon:rayquaza",
+	"order": 5,
+	"variations": [
+		{
+			"aspects": ["niang"],
+			"poser": "cobblemon:rayquazaniang",
+			"model": "cobblemon:rayquazaniang.geo",
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0384_rayquazaniang/rayquazaniang.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0384_rayquazaniang/rayquazaniang_emissive.png",
+					"translucent": true
+			  }	
+			]
+		},
+		{
+			"aspects": ["niang", "shiny" ],
+			"texture": "cobblemon:textures/pokemon/0_cosmetic/0384_rayquazaniang/rayquazaniang_shiny.png",
+			"layers": [
+			  {
+					"name": "emissive",
+					"emissive": true,
+					"texture": "cobblemon:textures/pokemon/0_cosmetic/0384_rayquazaniang/rayquazaniang_emissive_shiny.png",
+					"translucent": true
+			  }	
+			]
+		}
+	]
+}

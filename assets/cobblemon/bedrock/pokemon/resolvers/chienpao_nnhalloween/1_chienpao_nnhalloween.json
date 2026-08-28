@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:chienpao",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["nnhalloween"],
+      "poser": "cobblemon:chienpao_nnhalloween",
+      "model": "cobblemon:chienpao_nnhalloween.geo",
+      "texture": "cobblemon:textures/pokemon/chienpao_nnhalloween/chienpao_nnhalloween.png",
+      "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/chienpao_nnhalloween/chienpao_nnhalloween_emissive.png",
+          "emissive": true
+      }
+		]
+    },
+    {
+      "aspects": [
+        "nnhalloween",
+        "shiny"
+      ],
+      "model": "cobblemon:chienpao_nnhalloween.geo",
+      "poser": "cobblemon:chienpao_nnhalloween",
+      "texture": "cobblemon:textures/pokemon/chienpao_nnhalloween/chienpao_nnhalloween_shiny.png",
+	  "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/chienpao_nnhalloween/chienpao_nnhalloween_shiny_emissive.png",
+          "emissive": true
+      }
+		]
+    }
+  ]
+}

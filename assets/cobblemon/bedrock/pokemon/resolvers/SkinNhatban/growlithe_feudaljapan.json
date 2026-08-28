@@ -1,0 +1,31 @@
+{
+  "order": 98,
+  "species": "cobblemon:growlithe",
+  "variations": [
+    {
+      "aspects": ["skin-feudaljapan"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/growlithe_feudaljapan_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:growlithe_feudaljapan.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/growlithe_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/growlithe_feudaljapan_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/growlithe_feudaljapan_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:zacian",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shogun"],
+      "poser": "cobblemon:zacian",
+      "model": "cobblemon:zacian_shogun.geo",
+      "texture": "cobblemon:textures/pokemon/zacian_shogun/zacian_shogun.png",
+      "layers": [
+      ]
+    },
+    {
+        "aspects": [
+            "shogun",
+            "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/zacian_shogun/zacian_shogun_shiny.png"
+    }
+  ]
+}

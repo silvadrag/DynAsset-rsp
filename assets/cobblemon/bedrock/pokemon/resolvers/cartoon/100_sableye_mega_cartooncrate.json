@@ -1,0 +1,29 @@
+{
+  "species": "cobblemon:sableye",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": ["skin-cartooncrate", "mega"],
+      "poser": "cobblemon:sableye_mega_cartooncrate",
+      "model": "cobblemon:sableye_mega_cartooncrate.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/cartooncrate/sableye_mega_cartooncrate.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0000_skins/cartooncrate/sableye_mega_cartooncrate_emissive.png"
+        },
+        {
+          "name": "upgrade",
+          "emissive": false,
+          "texture": "cobblemon:textures/pokemon/0000_skins/cartooncrate/sableye_mega_cartooncrate_upgrade.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["skin-cartooncrate", "shiny", "mega"],
+      "texture": "cobblemon:textures/pokemon/0000_skins/cartooncrate/sableye_mega_cartooncrate_shiny.png",
+      "layers": []
+    }
+  ]
+}

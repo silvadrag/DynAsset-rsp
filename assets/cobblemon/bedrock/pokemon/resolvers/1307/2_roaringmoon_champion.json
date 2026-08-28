@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:roaringmoon",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["champion"],
+      "poser": "cobblemon:roaringmoon",
+      "model": "cobblemon:roaringmoon_champion.geo",
+      "texture": "cobblemon:textures/pokemon/1005_roaringmoon/roaringmoon_champion.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/1005_roaringmoon/roaringmoon_champion_emissive.png",
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}

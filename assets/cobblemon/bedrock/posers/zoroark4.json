@@ -1,0 +1,36 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [-0.5, 1.6, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.1, 0],
+  "rootBone": "zoroark4",
+  "animations": {
+    "cry": "q.bedrock_stateful('zoroark4', 'cry')",
+    "special": "q.bedrock_primary('zoroark4', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('zoroark4', 'status', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_additive('zoroark4', 'recoil', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('zoroark4', 'ground_idle')"]
+    },
+    "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "animations": ["q.bedrock('zoroark4', 'portrait')"]
+    },
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.bedrock('zoroark4', 'battle_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY", "HOVER"],
+      "animations": [
+        "q.bedrock('zoroark4', 'hair_setup')",
+        "q.bedrock('zoroark4', 'ground_walk')"
+      ]
+    }
+  }
+}

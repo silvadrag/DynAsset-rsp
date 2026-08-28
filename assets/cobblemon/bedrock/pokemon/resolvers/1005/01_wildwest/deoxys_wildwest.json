@@ -1,0 +1,32 @@
+{
+  "order": 98,
+  "species": "cobblemon:deoxys",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/deoxys_base_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:deoxys_base_wildwest.geo",
+      "poser": "cobblemon:deoxys_base_wildwest",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/deoxys_base_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/deoxys_base_wildwest_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/deoxys_base_wildwest_shiny.png"
+    }
+  ]
+}

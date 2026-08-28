@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:victini",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["mega"],
+      "poser": "cobblemon:victini",
+      "model": "cobblemon:victini.geo",
+      "texture": "cobblemon:textures/pokemon/0494_victini/victini_mega.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "mega"
+      ],
+      "texture": "cobblemon:textures/pokemon/0494_victini/victini_mega.png"
+    }
+  ]
+}

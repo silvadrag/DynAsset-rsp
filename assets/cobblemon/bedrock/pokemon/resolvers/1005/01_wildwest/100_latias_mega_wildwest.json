@@ -1,0 +1,59 @@
+{
+  "order": 100,
+  "species": "cobblemon:latias",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latios_mega_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latios_mega_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latios_mega_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latios_mega_wildwest_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/latias_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:latias_mega_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/latias_mega_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny", "mega"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latias_mega_wildwest_shiny_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latias_mega_wildwest_shiny_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latias_mega_wildwest_shiny_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/latias_mega_wildwest_shiny_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/latias_wildwest_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/latias_mega_wildwest_shiny.png"
+    }
+  ]
+}

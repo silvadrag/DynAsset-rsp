@@ -1,0 +1,18 @@
+{
+  "order": 98,
+  "species": "cobblemon:swalot",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest"],
+      "layers": [],
+      "poser": "cobblemon:swalot_wildwest",
+      "model": "cobblemon:swalot_wildwest.geo",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/swalot_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/swalot_wildwest_shiny.png"
+    }
+  ]
+}

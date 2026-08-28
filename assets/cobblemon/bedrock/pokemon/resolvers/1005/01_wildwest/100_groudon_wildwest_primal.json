@@ -1,0 +1,74 @@
+{
+  "order": 100,
+  "species": "cobblemon:groudon",
+  "variations": [
+    {
+      "aspects": ["skin-wildwest", "primal"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "flame2",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:groudon_wildwest.geo",
+      "poser": "cobblemon:groudon_wildwest",
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest.png"
+    },
+    {
+      "aspects": ["skin-wildwest", "shiny", "primal"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_shiny_1.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_shiny_2.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_shiny_3.png",
+              "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_shiny_4.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0000_skins/wildwest/groudon_primal_wildwest_shiny.png"
+    }
+  ]
+}

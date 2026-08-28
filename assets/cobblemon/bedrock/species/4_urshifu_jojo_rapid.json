@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:urshifu",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["jojo","rapid_strike-style"],
+      "poser": "cobblemon:urshifu6",
+      "model": "cobblemon:urshifu6.geo",
+      "texture": "cobblemon:textures/pokemon/urshifu6/urshifu6.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","jojo","rapid_strike-style"],
+      "model": "cobblemon:urshifu6.geo",
+      "poser": "cobblemon:urshifu6",
+      "texture": "cobblemon:textures/pokemon/urshifu6/urshifu6_shiny.png",
+      "layers": []
+    }
+  ]
+}

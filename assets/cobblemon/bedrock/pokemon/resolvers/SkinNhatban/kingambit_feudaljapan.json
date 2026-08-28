@@ -1,0 +1,18 @@
+{
+  "order": 98,
+  "species": "cobblemon:kingambit",
+  "variations": [
+    {
+      "aspects": ["skin-feudaljapan"],
+      "layers": [],
+      "model": "cobblemon:kingambit_feudaljapan.geo",
+      "poser": "cobblemon:kingambit_feudaljapan",
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/kingambit_feudaljapan.png"
+    },
+    {
+      "aspects": ["shiny", "skin-feudaljapan"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0000_skins/feudaljapan/kingambit_feudaljapan_shiny.png"
+    }
+  ]
+}

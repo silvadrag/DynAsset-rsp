@@ -1,0 +1,43 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('gengar_mega_feudaljapan', 'cry')"
+  },
+  "portraitScale": 1.15,
+  "portraitTranslation": [-0.2, 0.8, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["q.bedrock('gengar_mega_feudaljapan', 'ground_idle')"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        "q.bedrock_quirk('gengar_mega_feudaljapan', 'blink')",
+        "q.bedrock_quirk('gengar_mega_feudaljapan', 'laugh_quirk')"
+      ]
+    },
+    "flying": {
+      "animations": ["q.bedrock('gengar_mega_feudaljapan', 'air_idle')"],
+      "poseName": "flying",
+      "poseTypes": ["FLY", "HOVER", "SWIM"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('gengar_mega_feudaljapan', 'sleep')"],
+      "poseName": "walking",
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('gengar_mega_feudaljapan', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('gengar_mega_feudaljapan', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('gengar_mega_feudaljapan', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0]
+}
