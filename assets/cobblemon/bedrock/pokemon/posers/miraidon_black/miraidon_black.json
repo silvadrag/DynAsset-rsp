@@ -30,7 +30,7 @@
       "quirks": [        {
           "name": "blink",
           "animations": [
-            "bedrock(miraidon_black, blink)"
+            "q.bedrock('miraidon_black', 'blink')"
           ]
         }
       ]
@@ -51,7 +51,7 @@
         {
           "name": "blink",
           "animations": [
-            "bedrock(miraidon_black, blink)"
+            "q.bedrock('miraidon_black', 'blink')"
           ]
         }
       ]
@@ -68,7 +68,7 @@
         {
           "name": "blink",
           "animations": [
-            "bedrock(miraidon_black, blink)"
+            "q.bedrock('miraidon_black', 'blink')"
           ]
         }
       ]
