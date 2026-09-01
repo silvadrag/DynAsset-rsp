@@ -14,7 +14,7 @@ Thay vì bắt người chơi phải tải và nạp một gói Resource Pack n�
 
 ## 📊 Thống Kê Toàn Bộ Tài Nguyên (12,052 Files)
 
-* 📦 **SkinBundles Trọn Bộ (`cobblemon_skin`):** `1,235 bundles` (Model 3D + Poser + Animation + Texture)
+* 📦 **SkinBundles Trọn Bộ (`cobblemon_bundle`):** `1,235 bundles` (Model 3D + Poser + Animation + Texture)
 * 🖼️ **Item Icons 2D (`item_icon`):** `3,614 assets` (Vũ khí, công cụ, item tuỳ chỉnh)
 * ⚔️ **Item Models 3D (`item_model`):** `2,972 assets` (Model 3D vật phẩm JSON)
 * 🐉 **Bedrock 3D Models (`bedrock_model`):** `1,165 assets` (Khung xương 3D Pokémon/Entity)
@@ -70,14 +70,18 @@ https://raw.githubusercontent.com/silvadrag/DynAsset-rsp/main/{path}
 
 ## 🛠️ Tích Hợp & Nạp Vào MariaDB
 
-1. **Import Database:** Mở **HeidiSQL** (kết nối MariaDB), mở file `querrySQL/dynasset_bulk_import.sql` và bấm **F9** để nạp toàn bộ 11,324 assets.
+1. **Import Database:** Mở **HeidiSQL** (kết nối MariaDB), mở file `querrySQL/dynasset_bulk_import.sql` và bấm **F9** để nạp toàn bộ dữ liệu.
 2. **Reload Server Ingame:**
    ```text
-   /dynasset system reload
+   /dynasset reload
    ```
-3. **Gán Skin cho Pokémon:**
+3. **Khoác Skin cho Pokémon của mình:**
    ```text
-   /dynasset pokemon skin <player_name> <slot_1_to_6> <bundle_id>
+   /dynasset skin <ô_1_đến_6> <tên_skin>
+   ```
+4. **Mở khóa Skin cho người chơi (Admin / WebShop):**
+   ```text
+   /dynasset unlock <tên_người_chơi> <tên_skin>
    ```
 
 ---

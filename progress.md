@@ -33,7 +33,10 @@ Tài liệu này ghi lại toàn bộ quá trình bóc tách, chuẩn hóa, đó
 
 ### 📌 Cột Mốc 3: Lập Bảng Dữ Liệu SQL & Tính Mã Băm SHA-256
 - Tính toán mã băm SHA-256 cho từng file tài nguyên để bảo vệ toàn vẹn và hỗ trợ kiểm tra cache client.
-- Tạo file `seed_assets.sql` nạp tự động toàn bộ 12,052 assets vào MariaDB `dynasset_registry`.
+- Tạo file `querrySQL/dynasset_bulk_import.sql` nạp tự động toàn bộ 12,052 assets vào MariaDB `dynasset_registry`.
 
 ### 📌 Cột Mốc 4: Đẩy Kho Lưu Trữ Lên GitHub Cloud CDN
 - Xuất bản repository [`silvadrag/DynAsset-rsp`](https://github.com/silvadrag/DynAsset-rsp) hoạt động như một Cloud CDN tốc độ cao phục vụ tính năng On-Demand Streaming cho người chơi Minecraft.
+
+### 📌 Cột Mốc 5: Tương Thích Cơ Chế Single-PNG Dynamic Stream
+- Hỗ trợ lưu trữ và phân phối các file PNG đơn lẻ (từ CDN hoặc Google Drive) cho tính năng tổng hợp Skin tự động không cần ZIP/manifest của DynAsset Mod.
